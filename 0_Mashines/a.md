@@ -170,11 +170,9 @@ wapar karto.
 > “ jasa ke sarvann amahit ahe
 > 
 
-RHCSA
+RED hat chi kuthli pn exam 
 
-chi  exam kite 
-
- महाग आहे, 
+chi 12-25 hajar paryant jate 
 
 baher practice sathi websites ahe 
 
@@ -190,16 +188,20 @@ but certification sathi paise nahi
 
 mhanun 
 
+specially ya lokan sathi.
+
 proof of work style 
-he seirese ranhar ahe
+he seirese me gheun alo ahe ahe.
 
-yat apan prashna solve karu 
+yat apan sarad 
+exam level 
+prashna solve 
+karnar ahe 
 
-ani aplya-aplya
+github te post karnar ahe.
+mhanjech aplya kala-kahushyal cha dukan mandndun 
+recruters la akarshit karnar aho.
 
-github wr taku
-
-mhanjech aplya kala-kahushyal cha dikhava karu
 
 ======================================================================================================================================================
 
@@ -207,7 +209,7 @@ mhanjech aplya kala-kahushyal cha dikhava karu
 
 # video timelime explain
 
-ya sathi apan pudhil gostincha wapara karnar aho
+tr chala samjun gheu ke apan ya video madhe kai kar karar aho te.
 
 1 je makda ajun pn windows wr ahe tyancha sathi aan adhi WSL installation pahanar ahe. 
 
