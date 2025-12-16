@@ -294,36 +294,6 @@ OS install नाही.”
 “म्हणून
 VM नाही.”
 
-“Containerisation
-पहिल्या दिवशीपासून.”
-
-“आता बघुया
-Podman का?”
-
-DISADVANTAGES OF VM 
-
-containerisation. podman / docker 
-
-> “Ek OS setup, 10 lab, 20 experiment —
-> 
-> 
-> sagla seconds madhe.”
-> 
-
-> “Container break zala? Delete.
-Navin container? 5 second.”
-> 
-
-DevOps chi tayari , 
-
-devops sarkha vichar,
-
- pahilya divshi pasun karu 
-
-> “Infra engineer
-> 
-
----
 
 ## 
 
@@ -333,53 +303,30 @@ devops sarkha vichar,
 
 “Docker ka nahi?”
 
-“Karan
-Podman.”
+“Karan Podman.”
 
-“Rootless run hoto.”
+1st mhanje Rootless
 
-“Rootless
-mhanje
-strong security.”
+“Rootless mhanje strong security.”
+tumchya container cha admin sobat kahi samband nahi. 
+tr hacking cha chances khup kami, host system break che chances kami.
 
-“Production madhe
-root la free pass nahi.”
+“Podman daemon-less.”
 
-“Podman ला
-daemon nahi.”
+“Daemon nahi mhanje kam crash = System stable.
 
-“Daemon nahi
-mhanje
-kam crash.”
-
-“System stable.”
-
-“Podman
-RedHat ecosystem madhe fit.”
+“Podman RedHat ecosystem madhe fit.”
 
 “RHCSA.”
-
 “RHCE.”
-
 “OpenShift.”
 
-“Exam madhe je ahe
-te job madhe pan ahe.”
-
-“Ani job madhe je ahe
-te exam madhe pan.”
 
 🔥 KEY LINE (slow बोल)
 
-“Tool trendy nasava,
-tool relevant pahije.”
+“Tool trendy nasava, tool relevant pahije.”
 ---
 
-## 🧪 LIVE DEMO START (9:00 – 12:00)
-
----
-
-## ”
 
 > “Ek Dockerfile → multiple identical labs.”
 > 
