@@ -114,47 +114,54 @@ NAMASKAR Mitranno
 swagat ahe
 
 Devops-with-Mukul_DK
-
 assal marathi coding
-
 channel wr.
 
 ani tumhi pahat aha
-
 advanced linux lab
 | RHCSA
 TASK  & solution
 ( no cuts= real practice) 
 
-seriese cha 
-
+seriese cha  ha 
 1la video 
 
-yat apan 
-RHCSA style
-mashines create karnar ahot.
+jyat apan 
+RHCSA style mashines 
+damdar optimisation,
+
+repeat-ability
+ani 
+security sobat 
+
+tayar karnar ahot.
 
 ## 2
 
-te pn full local mashine wr,
+te pn purna pane 
+local mashine wr,
+
+
 vishesh mhanje 
 
 PURA-TAN  kadatli
-vm ware kiwwa virtual box 
+vm-ware 
+kiwwa 
+virtual box 
 
 bilkul n  waparta. 
 
+karan 
 DevOps with mukul dk  wr
 
-nehmi 
+apan nehmi 
+ani fakt
 
- fakt ani fakt
 latest
 ani
 cutting edge
 TOOLS cha 
-
-warpar honar. 
+wapar karto. 
 
 ======================================================================================================================================================
 
