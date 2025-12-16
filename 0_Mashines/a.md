@@ -144,63 +144,40 @@ local mashine wr,
 
 vishesh mhanje 
 
-PURA-TAN  kadatli
-vm-ware 
-kiwwa 
-virtual box 
-
-bilkul n  waparta. 
-
-karan 
-DevOps with mukul dk  wr
-
-apan nehmi 
-ani fakt
-
-latest
-ani
-cutting edge
-TOOLS cha 
-wapar karto. 
+  - vm-ware kiwwa virtual box n vaparta apan containerisation paddhitin ne he karnar aho.
+  - karan devops with mukuldk wr 
+  - apan
+  - nehmi ani fakt
+  - latest ani cutting edge TOOLS cha wapar karto. 
 
 ======================================================================================================================================================
 
 # exam
 
-> “ jasa ke sarvann amahit ahe
-> 
+> mitranno
 
-RED hat chi kuthli pn exam 
+    - RED hat chi kuthli pn exam 
+    - 12-25 hajar paryant jate 
+    - shivay 3rd party websites wr practice sathi  
+    - credit card ani menditary charges shivay kam chalat nahi
 
-chi 12-25 hajar paryant jate 
-
-baher practice sathi websites ahe 
-
-pn credit card 
-
-ani menditary charges shivay kam chalat nahi
-
-bharpur lok ashe pn ahe jyanch abhyas zala ahe
-
-but certification sathi paise nahi
+    - mhanje abhyas zala asun certification sathi paise nahi
 
 # proof of work
 
-mhanun 
+    - mhanunch ashya sarvan sathi.
 
-specially ya lokan sathi.
+    - proof of work style 
+    - he seirese me gheun alo ahe ahe.
 
-proof of work style 
-he seirese me gheun alo ahe ahe.
+    - yat apan sarad 
+    - exam level 
+    - prashna solve 
+    - karnar ahe 
 
-yat apan sarad 
-exam level 
-prashna solve 
-karnar ahe 
-
-github te post karnar ahe.
-mhanjech aplya kala-kahushyal cha dukan mandndun 
-recruters la akarshit karnar aho.
+    - github te post karnar ahe.
+    - mhanjech aplya kala-kahushyal cha dukan mandndun 
+    - recruters la akarshit karnar aho.
 
 
 ======================================================================================================================================================
