@@ -17,6 +17,7 @@ RUN useradd -m -s /bin/bash examuser-arch && \
     echo "examuser-arch:asdf123" | chpasswd
 
 COPY ./config/sshd_config /etc/ssh/sshd_config
+
 COPY ./scripts/init.sh /init.sh
 RUN chmod +x /init.sh
 
