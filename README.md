@@ -1,44 +1,4 @@
 
-# Folder Structure:
-```
-rhcsa-lab/
-│
-├── docker-compose.yml
-│
-├── ubuntu-lts/
-│   ├── Dockerfile
-│   ├── scripts/
-│   │   └── init.sh
-│   └── config/
-│       └── sshd_config
-│
-├── rocky/
-│   ├── Dockerfile
-│   ├── scripts/
-│   │   └── init.sh
-│   └── config/
-│       └── sshd_config
-│
-├── arch/
-│   ├── Dockerfile
-│   ├── scripts/
-│   │   └── init.sh
-│   └── config/
-│       └── sshd_config
-│
-├── rhel-ubi/
-│   ├── Dockerfile
-│   ├── scripts/
-│   │   └── init.sh
-│   └── config/
-│       └── sshd_config
-│
-└── shared/
-    ├── authorized_keys
-    ├── default-user.env
-    ├── motd
-    └── notes.txt
-```
 
 
 ### ✔ **Each OS in its own directory**
