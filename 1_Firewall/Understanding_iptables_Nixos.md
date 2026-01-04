@@ -350,7 +350,7 @@ udp dpt:53 in:podman0 # R:  👉 Allow DNS traffic coming from containers.
     -  Service meshes
     -  All rely on namespace-aware firewalling.
 
-    | Interview-ready short answer
+#### | Interview-ready short answer
 
 > “Containers use their own network namespace and bridge interface, so the host firewall must allow DNS and other traffic on that bridge.” Namespace-aware firewalling builds on this concept.
 
@@ -358,14 +358,16 @@ udp dpt:53 in:podman0 # R:  👉 Allow DNS traffic coming from containers.
 
 ### 6️⃣ ICMP (ping)
 
-```text
-icmp type 8
+```bash
+icmp type 8 # => Allow ping requests to this machine.
 ```
 
 **Meaning**
 
-* ICMP echo request allowed
-* Useful for:
+  * ICMP echo request allowed
+  * Useful for:
+  * icmp type 8 = echo request (ping)
+  * Lets others check if the host is alive
 
   * Monitoring
   * Debugging
