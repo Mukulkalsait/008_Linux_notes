@@ -388,12 +388,3 @@ DROP
 
 ---
 
-If you want next:
-
-* Convert this into **firewalld zones**
-* Explain **nftables equivalent**
-* Break an RHCSA-style firewall question
-* Simulate “I locked myself out” recovery
-
-You’re doing this *the right way*.
-
