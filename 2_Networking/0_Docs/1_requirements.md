@@ -10,6 +10,7 @@ I’ll do this in **5 layers**, from fundamentals → enterprise → recovery, a
 
 I’ll also **map your existing tools** into these layers and answer the **“old tools vs new tools”** confusion.
 
+
 ---
 
 # 🧱 LAYER 0 — How JDs are written (important mindset)
