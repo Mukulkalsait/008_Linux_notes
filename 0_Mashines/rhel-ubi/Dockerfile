@@ -1,6 +1,4 @@
-# FROM registry.access.redhat.com/ubi9/ubi-minimal:latest
 FROM registry.access.redhat.com/ubi9/ubi-init
-
 ENV container=podman
 
 STOPSIGNAL SIGRTMIN+3
@@ -14,8 +12,8 @@ ARG PASSWORD=asdf123
 
 RUN useradd -m ${USERNAME} && \
     echo "${USERNAME}:${PASSWORD}" | chpasswd && \
-    echo "${USERNAME} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers \
-    usermod -aG wheel examuser-ubi
+    # echo "${USERNAME} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers \
+    usermod -aG wheel ${USERNAME}
 
 # Fix permissions & enable SSH host keys
 RUN mkdir -p /run/sshd
