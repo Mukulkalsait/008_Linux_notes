@@ -1,8 +1,7 @@
 FROM ubuntu:22.04
 
 ENV container podman
-#Y: disable hardware-related services (udev, dbus-hw, mounts, real tty management) and not to panic if kernel features are missing
-# without it 
+#Y: disable hardware-related services (udev, dbus-hw, mounts, real tty management) and not to panic if kernel features are missing without it 
 #
 # - System has not been booted with systemd as init system
 # - Failed units: systemd-udevd, systemd-logind
@@ -66,4 +65,7 @@ RUN chmod +x /init.sh
 # Systemd: never exits automatically, runs background services, manages sshd, manages logs, handles signals, So the container stays alive forever, like a real VM.
 # Exactly what we want.
 
+EXPOSE 22
+
+# CMD [ "/usr/lib/systemd/systemd" ]
 CMD [ "/sbin/init" ]
