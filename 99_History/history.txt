@@ -1,0 +1,4277 @@
+ 8351  allProfiles
+ 8352  exit
+ 8353  tt
+ 8354  nixConfig
+ 8355  nvtop
+ 8356  cdN
+ 8357  tt
+ 8358  sudo nix flake update
+ 8359  snrsf
+ 8360  fastfetch
+ 8361  clear
+ 8362  exit
+ 8363  reboot
+ 8364  y
+ 8365  tt
+ 8366  cdn
+ 8367  cdN
+ 8368  nixConfig
+ 8369  clear
+ 8370  ;d
+ 8371  ls
+ 8372  y
+ 8373  power
+ 8374  poweroff
+ 8375  lsblk
+ 8376  mount /dev/sda1 /home/mukuldk/1_file/8_MOUNTINGS/samsung_sd_card
+ 8377  sudo mount /dev/sda1 /home/mukuldk/1_file/8_MOUNTINGS/SD_512
+ 8378  y
+ 8379  sudo umount /dev/sda1
+ 8380  aws
+ 8381  nix-search aws
+ 8382  tt
+ 8383  nix-search aws 
+ 8384  nixConfig
+ 8385  snrsf
+ 8386  nixConfig
+ 8387  nix-shell -p shell-gpt
+ 8388  gpt
+ 8389  shell-gpt
+ 8390  exit
+ 8391  sgpt
+ 8392  exit
+ 8393  sgpt
+ 8394  nix-inspect
+ 8395  sudo nix-inspect
+ 8396  nix-search-tv
+ 8397  nix-search-tv shell-gpt
+ 8398  nix-search-tv preview shell-gpt
+ 8399  nix-search-tv preview neovim
+ 8400  nix-search-tv preview hyprland
+ 8401  nix-search-tv print neovim
+ 8402  nix-search-tv preview hyprland
+ 8403  nix-search-tv print neovim
+ 8404  nix-search-tv 
+ 8405  nix-search-tv homepage neovim
+ 8406  nix-search-tv homepage shell-gpt
+ 8407  nix-search-tv -h
+ 8408  cleawr
+ 8409  clear
+ 8410  docker -v
+ 8411  podman -v
+ 8412  snrsf 
+ 8413  aws
+ 8414  aws config
+ 8415  aws authenticate
+ 8416  aws login
+ 8417  aws help
+ 8418  aws help | login
+ 8419  aws help | grep login
+ 8420  aws help | grep auth
+ 8421  aws services
+ 8422  aws list-services
+ 8423  aws help 
+ 8424  aws --version
+ 8425  aws iam list-users
+ 8426  aws configure
+ 8427  echo performance | setProfile
+ 8428  whichProfiles
+ 8429  ls
+ 8430  lsl
+ 8431  ls | grep mu
+ 8432  ls | grep Mukul
+ 8433  y
+ 8434  sudo yazi
+ 8435  clear
+ 8436  exit
+ 8437  aws iam list-users
+ 8438  aws iam list-users | bat
+ 8439  aws iam list-users | jq
+ 8440  aws iam list-users | jq | bat
+ 8441  aws iam list-users | jq 
+ 8442  y
+ 8443  lsl
+ 8444  whoam
+ 8445  howami
+ 8446  whoami
+ 8447  lsl
+ 8448  exit
+ 8449  y
+ 8450  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com
+ 8451  y
+ 8452  sudo yazi
+ 8453  y
+ 8454  lsl
+ 8455  fastfetch
+ 8456  lsl
+ 8457  y
+ 8458  lsl
+ 8459  y
+ 8460  lsl
+ 8461  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com
+ 8462  tt
+ 8463  y
+ 8464  nvim
+ 8465  y
+ 8466  lsl
+ 8467  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com
+ 8468  clear
+ 8469  nvidia-smi
+ 8470  clear
+ 8471  nixVer --list-generations
+ 8472  sudo nix-collect-garbage -d
+ 8473  nixOptimise
+ 8474  poweroff
+ 8475  tt
+ 8476  ls /sys/class/power_supply/*/ | sed -n '1,120p'
+ 8477  ls /sys/class/power_supply/*/ | sed -n '1,120p'\n# and specifically\ntest -r /sys/class/power_supply/BAT0/charge_control_end_threshold && echo "exists" || echo "no sysfs threshold"\n# If exists, try reading/writing (this will only work if kernel + firmware support it):\ncat /sys/class/power_supply/BAT0/charge_control_end_threshold\necho 80 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold\n
+ 8478  nix-shell -p linuxKernel.packages.linux_zen.acer-wmi-battery
+ 8479  btop
+ 8480  exit
+ 8481  nix-shell -p linuxKernel.packages.linux_6_18.acer-wmi-battery
+ 8482  nix-shell -p linuxKernel.packages.linux_6_18.acer-wmi-battery\n
+ 8483  nixConfig
+ 8484  snrsf 
+ 8485  ls /sys/bus/wmi/drivers/\n
+ 8486  lsmod | grep acer\n
+ 8487  ls /sys/bus/wmi/drivers/acer-wmi-battery/\n
+ 8488  echo 1 | sudo tee /sys/bus/wmi/drivers/acer-wmi-battery/health_mode\n
+ 8489  ls /run/booted-system/kernel-modules/lib/modules/6.18.0/kernel/drivers/platform/x86/\n
+ 8490  dmesg | grep -i acer\n
+ 8491  sudo dmesg | grep -i acer\n
+ 8492  dmesg | grep -i wmi\n
+ 8493  sudo dmesg | grep -i wmi\n
+ 8494  sudo cat /sys/bus/wmi/devices/*/guid\n
+ 8495  y
+ 8496  lsl
+ 8497  y
+ 8498  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com
+ 8499  exit
+ 8500  tt
+ 8501  nvim
+ 8502  lsl
+ 8503  y
+ 8504  lsl
+ 8505  podman-compose up -d 
+ 8506  lsl
+ 8507  podman auth
+ 8508  podman login docker.io
+ 8509  podman status
+ 8510  podman stats
+ 8511  podman login docker.io
+ 8512  ls
+ 8513  y
+ 8514  ls /home/mukuldk/.config/containers/
+ 8515  lsl /home/mukuldk/.config/containers/
+ 8516  sudo su
+ 8517  lsl /home/mukuldk/.config/containers/
+ 8518  podman login 
+ 8519  podman login docker.io
+ 8520  y
+ 8521  podman login docker.io
+ 8522  y
+ 8523  podman login docker.io
+ 8525  nvim auth.json
+ 8526  podman login docker.io
+ 8527  y
+ 8528  sudo yazi
+ 8529  lsl
+ 8530  y
+ 8532  podman login 
+ 8533  lsl
+ 8534  y
+ 8535  lsl
+ 8536  podman-compose up -d
+ 8537  lsl
+ 8538  nixConfig
+ 8539  snrsf
+ 8540  lsd
+ 8541  podman prune
+ 8542  podman images prune
+ 8543  lsd
+ 8544  nvim
+ 8545  ip link
+ 8546  ip addr
+ 8547  ip addr show
+ 8548  fastfetch
+ 8549  nvim
+ 8550  podman-compose down
+ 8551  ls
+ 8552  pwd
+ 8553  y
+ 8554  exit
+ 8555  lsl
+ 8556  git clone git@github.com:Mukulkalsait/A_3Tear-podmanCompose-mern-App.git 
+ 8557  y
+ 8558  lsl
+ 8559  podman-compose up -d
+ 8560  fastfetch
+ 8561  hostname -I
+ 8562  podman-compose down
+ 8563  podman-compose build --no-cache
+ 8564  podman-compose up -d
+ 8565  podman-compose down
+ 8566  lsl
+ 8567  cd ..
+ 8568  lsl
+ 8569  podman-compose down
+ 8570  podman-compose build --no-cache
+ 8571  podman-compose up -d
+ 8572  podman-compose down
+ 8573  podman-compose build --no-cache
+ 8574  podman-compose up -d
+ 8575  podman-compose down
+ 8576  podman-compose build
+ 8577  podman-compose up 
+ 8578  podman-compose up -d 
+ 8579  podman-compose down
+ 8580  echo performance 
+ 8581  echo performance | setProfile
+ 8582  podman-compose up -d 
+ 8583  podman-compose down
+ 8584  podman-compose build 
+ 8585  podman-compose up -d 
+ 8586  podman-compose down
+ 8587  podman-compose up -d 
+ 8588  hostname -I
+ 8589  nixConfig
+ 8590  y
+ 8591  lsl
+ 8592  chmod 775 firewall.nix
+ 8593  sudo chmod 775 firewall.nix
+ 8594  nvim
+ 8595  ip addr
+ 8596  networkctl status
+ 8597  nmcli device status
+ 8598  ip -6 addr 
+ 8599  podman network inspect podman
+ 8600  sudo ss -tulpn | grep 5173\nsudo ss -tulpn | grep 4000\n
+ 8601  ping 192.168.1.10\n
+ 8602  ping http://192.168.1.10:4000/api/contacts\n
+ 8603  ls
+ 8604  y
+ 8605  exit
+ 8606  exit
+ 8607  lsl
+ 8608  glow
+ 8609  y
+ 8610  lsl
+ 8611  pwd
+ 8612  lsl
+ 8613  sudo chmod 776 appVideo.mp4
+ 8614  lsl
+ 8615  tt
+ 8616  exit
+ 8617  tt
+ 8618  y
+ 8619  lsd
+ 8620  lsl
+ 8621  y
+ 8622  lsl
+ 8623  adb devices
+ 8624  nixConfig
+ 8625  snrsf
+ 8626  adb 
+ 8627  adb devices
+ 8628  adb shell
+ 8629  y
+ 8630  adb pull /sdcard/Screenshot_20251207-* .
+ 8631  adb pull /sdcard/Screenshot_20251207*
+ 8632  adb pull /sdcard/Screenshot* .
+ 8633  adb pull /sdcard/Screenshot_20251207-164913_1DM+.png .
+ 8634  adb pull /sdcard/Screenshot_20251207-175729_1DM+.png .
+ 8635  ls
+ 8636  y
+ 8637  lsl
+ 8638  y
+ 8639  podman-compose down
+ 8640  echo performance | setProfile
+ 8641  tt
+ 8642  poweroff
+ 8643  y
+ 8644  poweroff
+ 8645  tt
+ 8646  cdN
+ 8647  sudo nix flake update
+ 8648  nixConfig
+ 8649  tt
+ 8650  nixConfig
+ 8651  poweroff
+ 8652  y
+ 8653  tt
+ 8654  nvim
+ 8655  y
+ 8656  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com
+ 8657  lsd
+ 8658  y
+ 8659  lsl
+ 8660  hostname -I 
+ 8661  lsd
+ 8662  ls
+ 8663  lsl
+ 8664  nivm
+ 8665  nvim
+ 8666  nixConfig
+ 8667  cd
+ 8668  nvim
+ 8669  ls
+ 8670  y
+ 8671  lsl
+ 8673  lsl
+ 8674  sudo chown 776 -R ./*
+ 8675  lsl
+ 8676  sudo chown 776 -r ./*
+ 8677  sudo chmod 776 -R ./*
+ 8678  lsl
+ 8679  nvi
+ 8680  nvim
+ 8681  nvidia-offload obs\n
+ 8682  nixConfig
+ 8683  snrsf
+ 8684  nixConfig
+ 8685  snrsf
+ 8686  exit
+ 8687  tta
+ 8688  y
+ 8689  exit
+ 8690  clear
+ 8691  lsl
+ 8692  nvim
+ 8693  lsd
+ 8694  exit
+ 8695  nvim
+ 8696  lsl
+ 8697  y
+ 8698  lsl
+ 8699  sudo nvim
+ 8700  exit
+ 8701  lsl
+ 8702  lsd
+ 8703  nvim
+ 8704  hostname -I
+ 8705  lsd
+ 8706  lsl
+ 8707  podman-compose build
+ 8708  podman-compose up -d 
+ 8709  lsd
+ 8710  podman-compose down 
+ 8711  lsd
+ 8712  echo performance | setProfile
+ 8713  nvim
+ 8714  podman ps 
+ 8715  lsd
+ 8716  hostname -I
+ 8717  nvim
+ 8718  hostname -I 
+ 8719  lsl
+ 8720  podman-compose build
+ 8721  lsd
+ 8722  podman-compose up -d 
+ 8723  lsd
+ 8724  podman-compose down
+ 8725  lsd
+ 8726  clear
+ 8727  podman-compose up -d
+ 8728  exit
+ 8729  ls
+ 8730  y
+ 8731  lsl
+ 8732  y
+ 8733  lsl
+ 8734  y
+ 8735  ping https://fivemenu.digital/
+ 8736  ip https://fivemenu.digital/
+ 8737  curl -h https://fivemenu.digital/
+ 8738  curl --help
+ 8739  nix-shell -p nmap --run "nslookup vidronapa.digital"
+ 8740  host 218.248.114.53
+ 8741  host 218.248.114.53#53
+ 8742  host 104.21.30.118
+ 8743  host  172.67.172.227
+ 8744  host 2606:4700:3034::6815:1e76
+ 8745  host 2606:4700:3035::ac43:ace3
+ 8746  dig 218.248.114.53
+ 8747  clear
+ 8748  exit
+ 8749  tt
+ 8750  nvim
+ 8751  echo performance | setProfile
+ 8752  y
+ 8753  lsl
+ 8754  sudo nvim
+ 8755  y
+ 8756  btop
+ 8757  cdN
+ 8758  sudo nix flake update
+ 8759  fastfetch
+ 8760  lsl
+ 8761  nixVer --list-generations
+ 8762  snrsf
+ 8763  nixConfig
+ 8764  btop
+ 8765  nixVer --list-generations
+ 8766  clear
+ 8767  poweroff
+ 8768  ls
+ 8769  fastfetch
+ 8770  tt
+ 8771  echo performance | setProfile
+ 8772  y
+ 8773  poweroff
+ 8774  lsl
+ 8775  tt
+ 8776  nvim
+ 8777  exit
+ 8778  nvm
+ 8779  nvim
+ 8780  lsl
+ 8781  y
+ 8782  lsl
+ 8783  nvim
+ 8784  lsl
+ 8785  y
+ 8786  podman-compose up -d 
+ 8787  lsd
+ 8788  lsl
+ 8789  for n in $(podman ps -q); do \npodman exec -it $n sudo apk update -y;\n\npodman exec -it $n sudo apk upgrade -y; done
+ 8790  podman ps -q
+ 8791  for n in $(podman ps -q); do \npodman exec -it $n apk update -y 
+ 8792  for n in $(podman ps -q); do \npodman exec -it $n apk update -y;\npodman exec -it $n apk upgrade -y;\ndone 
+ 8793  for n in $(podman ps -q); do \n\n
+ 8794  podman exec -it jenkins-agent sh
+ 8795  podman exec -it jenkins-agent1 sh
+ 8796  for n in $(podman ps -q); do \npodman exec -it $n apk update -y; \npodman exec -it $n apk upgrade -y; \ndone 
+ 8797  for n in $(podman ps -q); do \npodman exec -it $n sh apk update -y; \npodman exec -it $n sh apk upgrade -y; \ndone 
+ 8798  \n
+ 8799  podman-compose down 
+ 8800  podman-compose up -d
+ 8801  podman-compose down 
+ 8802  podman-compose up -d
+ 8803  podman-compose down 
+ 8804  lsl
+ 8805  podman-compose down 
+ 8806  lsd
+ 8807  podman images prune
+ 8808  podman images
+ 8809  podman images prune
+ 8810  podman-compose ps
+ 8811  podman-compose ps -a
+ 8812  podman-compose in_pod
+ 8813  podman-compose logs
+ 8814  podman-compose ls
+ 8815  podman-compose ps
+ 8816  podman-compose ps -s
+ 8817  podman-compose ps -a
+ 8818  podman-compose images
+ 8819  podman-compose prune
+ 8820  /\ndi
+ 8821  podman images
+ 8822  podman images prune
+ 8823  podman ps --all 
+ 8824  podman ps --all --filter label=io.podman.compose.project
+ 8825  podman ps --all --filter label=io.podman.compose.project\n
+ 8826  podman info | grep -i graphRoot\n
+ 8827  sudo podman info | grep -i graphRoot\n
+ 8828  sudo podman-compose ps
+ 8829  sudo podman-compose ps -a
+ 8830  sudo podman ps -a\n
+ 8831  sudo podman ps -a
+ 8832  podman ps -a
+ 8833  sudo podman images
+ 8834  podman images
+ 8835  lsd
+ 8836  podman volume ls 
+ 8837  podman volume inspect 2_installations_jenkins_home
+ 8838  lsl /home/mukuldk/.local/share/containers/storage/volumes/2_installations_jenkins_home/_data/
+ 8839  lsl
+ 8840  podman-compose up -d --force-recreate
+ 8841  podman volume ls
+ 8842  podman-compose up -d --force-recreate
+ 8843  lsd
+ 8844  podman ps 
+ 8845  echo performance | setProfile
+ 8846  /\nd
+ 8847  lsl
+ 8848  y
+ 8849  lsl
+ 8850  y
+ 8851  lsl
+ 8852  nix-shell -p cargo 
+ 8853  lsl
+ 8854  y
+ 8855  y
+ 8856  lsl
+ 8857  y
+ 8858  nvi
+ 8859  nvim
+ 8860  r
+ 8861  nvim
+ 8862  rustc --version
+ 8863  nixConfig
+ 8864  snrsf
+ 8865  nvim
+ 8866  lsl
+ 8867  nvim
+ 8868  cargo add colored
+ 8869  nixConfig
+ 8870  snrsf
+ 8871  nvim
+ 8872  snrsf
+ 8873  nvim
+ 8874  lsl
+ 8875  cargo 
+ 8876  cargo --list
+ 8877  cargo --list installed
+ 8878  cargo run
+ 8879  lsl
+ 8880  cargo run
+ 8881  rustc --version
+ 8882  rust installer
+ 8883  cd
+ 8884  y
+ 8885  ls
+ 8886  lsl
+ 8887  nvim
+ 8888  lsl
+ 8889  lsl 1_file
+ 8890  snrsf
+ 8891  nixConfig
+ 8892  snrsf
+ 8893  resource
+ 8894  nixCopy
+ 8895  lsl
+ 8896  y
+ 8897  lsl
+ 8898  cd ..
+ 8899  lsl
+ 8900  cd ..
+ 8901  lsl
+ 8902  cd ..
+ 8903  lsl
+ 8904  cp --help
+ 8905  snrsf
+ 8906  resource
+ 8907  nixCopy
+ 8908  sudo nixCopy
+ 8909  nixCopy
+ 8910  rm --help
+ 8911  snrsf
+ 8912  resource
+ 8913  nixCopy
+ 8914  y
+ 8915  lsl
+ 8916  y
+ 8917  lsl
+ 8918  cd ..
+ 8919  lsl
+ 8920  cd nixos_copy
+ 8921  lsl
+ 8922  nvim
+ 8923  snrsf
+ 8924  nixConfig
+ 8925  resource
+ 8926  nixCopy
+ 8927  lsl
+ 8928  nixCopy
+ 8929  resource
+ 8930  nixCopy
+ 8931  lsls
+ 8932  lsl
+ 8933  y
+ 8934  lsl
+ 8935  sudo yazi
+ 8936  nixCopy
+ 8937  lsl
+ 8938  y
+ 8939  lsl
+ 8940  y
+ 8941  lsl
+ 8942  nvim
+ 8943  nixConfig
+ 8944  snrsf
+ 8945  rustc --versin
+ 8946  rustc --version
+ 8947  cargo -v
+ 8948  nvim
+ 8949  cargo run
+ 8950  \n\M-6mukuldk \M-0 …/7_jenkins-cicd-lab/2_Installations/a_rust_guess_game \M-0  main ? \M-0  v1.91.1 \M-0\M-0 ♥ 23:45 \M-0 cargo run\n   Compiling a_rust_guess_game v0.1.0 (/home/mukuldk/1_file/3_Repos_All/A_gitHub/7_jenkins-cicd-lab/2_Installations/a_rust_guess_game)\nerror: linker `cc` not found\n  |\n  = note: No such file or directory (os error 2)\n\nerror: could not compile `a_rust_guess_game` (bin "a_rust_guess_game") due to 1 previous error\n\n\M-6mukuldk \M-0 …/7_jenkins-cicd-lab/2_Installations/a_rust_guess_game \M-0  main ? \M-0  v1.91.1 \M-0\M-0 ♥ 23:45 \M-0                \nCargo.lock  Cargo.toml  src/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+ 8951  nixConfig
+ 8952  snrsf
+ 8953  cargo run
+ 8954  nvim
+ 8955  cargo add rand
+ 8956  lsl
+ 8957  podman-compose down
+ 8958  lsd
+ 8959  poweroff
+ 8960  lsl
+ 8961  tt
+ 8962  nvim
+ 8963  y
+ 8964  nvim
+ 8965  lsl
+ 8966  cargo run 
+ 8967  lsl
+ 8968  cargo run
+ 8969  lsl
+ 8970  y
+ 8971  cargo uninstall rand
+ 8972  cargo install rand 0.5.6
+ 8973  cargo add rand 0.5.6
+ 8974  cargo add rand 5.6
+ 8975  cargo run
+ 8976  cargo run 
+ 8977  cargo run
+ 8978  nmtui
+ 8979  cargo run
+ 8980  cargo run 
+ 8981  nvim
+ 8982  lsl
+ 8983  cargo run 
+ 8984  nvim
+ 8985  cargo run 
+ 8986  exit
+ 8987  exit
+ 8988  exit
+ 8989  y
+ 8990  lsl
+ 8991  7z x ut34-2025.zip .
+ 8992  lsl
+ 8993  y
+ 8994  lsl
+ 8995  y
+ 8996  echo .zshrc
+ 8997  cat .zshrc
+ 8998  multyLang
+ 8999  tt
+ 9000  nixConfig
+ 9001  snrsf
+ 9002  multyLang
+ 9003  lsl
+ 9004  exit
+ 9005  btop
+ 9006  poweroff
+ 9007  lsl
+ 9008  tt
+ 9009  nvim
+ 9010  y
+ 9011  cargo --help
+ 9012  cargo build -h
+ 9013  cargo b -r
+ 9014  lsl
+ 9015  y
+ 9016  lsl
+ 9017  ./a_rust_guess_game
+ 9018  poweroff
+ 9019  y
+ 9020  lsl
+ 9021  y
+ 9022  tt
+ 9023  nixConfig
+ 9024  cdN
+ 9025  sudo nix flake update
+ 9026  y
+ 9027  cargo run 
+ 9028  nixConfig
+ 9029  multyLang
+ 9030  exit
+ 9031  echo performance | setProfile
+ 9032  y
+ 9033  poweroff
+ 9034  y
+ 9035  poweroff
+ 9036  y
+ 9037  poweroff
+ 9038  y
+ 9039  tt
+ 9040  multyLang
+ 9041  y
+ 9042  Y
+ 9043  y
+ 9044  exit
+ 9045  poweroff
+ 9046  multyLang
+ 9047  poweroff
+ 9048  y
+ 9049  tt
+ 9050  cdN
+ 9051  sudo nix flake update
+ 9052  nixCofnig
+ 9053  nixConfig
+ 9054  y
+ 9055  poweroff
+ 9056  y
+ 9057  q
+ 9058  y
+ 9059  multyLang
+ 9060  7z a papersut3-4_2025.zip ./*
+ 9061  lsl
+ 9062  y
+ 9063  lsl
+ 9064  7z a papersut3-4_2025-pdf.zip ./2_3-4ut-2025/*
+ 9065  lsl
+ 9066  y
+ 9067  poweroff
+ 9068  nvim
+ 9069  lsl
+ 9070  nixConfig
+ 9071  cdN
+ 9072  sudo nix flake update
+ 9073  nixConfig
+ 9074  tt
+ 9075  nixConfig
+ 9076  snrsf 
+ 9077  clear
+ 9078  nixConfig
+ 9079  snrsf 
+ 9080  fastfetch
+ 9081  scrcpy --camera 
+ 9082  scrcpy --camera --max-size 1920 --camera-fps=30\n
+ 9083  scrcpy --list-camera
+ 9084  scrcpy --list-cameras
+ 9085  scrcpy --camera-id=0 --camera-fps=30 --camera-size=1920 
+ 9086  scrcpy --video-source=camera --camera-id=0 --camera-fps=30 --camera-size=1920
+ 9087  scrcpy \\n  --video-source=camera \\n  --camera-id=0 \\n  --camera-fps=30 \\n  --camera-size=2560\n
+ 9088  scrcpy \\n  --video-source=camera \\n  --camera-id=0 \\n  --camera-fps=30 \\n  --camera-size=3840 \\n  --bit-rate=20M\n
+ 9089  scrcpy \\n  --video-source=camera \\n  --camera-id=0 \\n  --camera-fps=30 \\n  --camera-size=1920x1080 \\n  --video-bit-rate=12M \\n  --no-audio\n
+ 9090  scrcpy \\n  --video-source=camera \\n  --camera-id=0 \\n  --camera-fps=30 \\n  --camera-size=2560x1440 \\n  --video-bit-rate=16M \\n  --no-audio\n
+ 9091  scrcpy \\n  --video-source=camera \\n  --camera-id=0 \\n  --camera-fps=30 \\n  --camera-size=1920x1080 \\n  --video-bit-rate=12M \\n  --render-driver=opengl \\n  --no-audio \\n  --window-title "FaceCam"\n
+ 9092  lsl
+ 9093  y
+ 9094  cd
+ 9095  y
+ 9096  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --window-title "FaceCam"
+ 9097  exit
+ 9098  exit
+ 9099  tt
+ 9100  nixConfig
+ 9101  snrsf
+ 9102  echo performance | setProfile
+ 9103  snrsf
+ 9104  which obs
+ 9105  snrsf
+ 9106  btop
+ 9107  lsl
+ 9108  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --window-title "FaceCam" --camera-size=1280x720
+ 9109  QT_QPA_PLATFORM=xcb obs\n
+ 9110  exit
+ 9111  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --window-title "FaceCam" --camera-size=1280x720
+ 9112  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --window-title "FaceCam" --camera-size=1280x720 --background
+ 9113  scrcpy 
+ 9114  scrcpy --help
+ 9115  scrcpy --camera-size-list
+ 9116  scrcpy --list-camera-sizes
+ 9117  scrcpy --list-display
+ 9118  history 100 | grep scrcpy 
+ 9119  scrcpy --video-source=display --display-id=0
+ 9120  scrcpy --video-source=display --display-id=0 --render-driver=opengl
+ 9121  scrcpy --video-source=display --display-id=0 --render-driver=opengl --display-fps=60
+ 9122  scrcpy --list-aps 
+ 9123  scrcpy --list-apps
+ 9124  scrcpy --list-encoders
+ 9125  y
+ 9126  history 100 | grep scrcpy 
+ 9127  y
+ 9128  history 100 | grep scrcpy >> scrcpy_User_guide.md
+ 9129  scrcpy --help >> scrcpy_User_guide.md 
+ 9130  scrcpy --list-camera-sizes
+ 9131  lsl
+ 9132  yu
+ 9133  y
+ 9134  git clone git@github.com:Mukulkalsait/Extra_tools_study.git
+ 9135  lsl
+ 9136  y
+ 9137  nvim
+ 9138  lsl
+ 9139  exit
+ 9140  scrcpy --video-source=camera  --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --camera-size=1280x720 
+ 9141  lsl
+ 9142  y
+ 9143  lsl
+ 9144  clear
+ 9145  y
+ 9146  lsl
+ 9147  git clone git@github.com:Mukulkalsait/008_Linux_notes.git
+ 9148  y
+ 9149  lsl
+ 9150  nvim
+ 9151  rm -rfv ./1_OracleCludeInfrastracture-DevOps_Professional
+ 9152  lsl
+ 9153  nvim 2_rust-Programming
+ 9154  rm -rfv ./2_rust-Programming
+ 9155  lsl
+ 9156  nvim 3_Node_js
+ 9157  lsl
+ 9158  y
+ 9159  lsl
+ 9160  nvim 4_Web_React
+ 9161  nvim 5_shellScripting
+ 9162  rm -rfv ./5_shellScripting
+ 9163  lsl
+ 9164  nvim 6_terraform-aws-secure-vpc-ec2
+ 9165  rm -rfv 6_terraform-aws-secure-vpc-ec2
+ 9166  lsl
+ 9167  nvim 7_jenkins-cicd-lab
+ 9168  rm -rfv 7_jenkins-cicd-lab
+ 9169  lsl
+ 9170  7z a oldName_repos.zip ./3_Node_js ./4_Web_React 
+ 9171  lsl
+ 9172  y
+ 9173  lsl
+ 9174  y
+ 9175  lsl
+ 9176  git clone git@github.com:Mukulkalsait/001_DevOps_OCI.git
+ 9177  lsl
+ 9178  git clone git@github.com:Mukulkalsait/002_Rust_Programing
+ 9179  \tgit clone git@github.com:Mukulkalsait/003-TS-nodejs
+ 9180  \tgit clone git@github.com:Mukulkalsait/003_TS-nodejs
+ 9181  git clone git@github.com:Mukulkalsait/004_Web_React
+ 9182  git clone git@github.com:Mukulkalsait/005_ShellScripting
+ 9183  git clone git@github.com:Mukulkalsait/006_Terraform-aws
+ 9184  git clone git@github.com:Mukulkalsait/007_Jenkins-cicd-lab
+ 9185  lsl
+ 9186  y
+ 9187  exit
+ 9188  tt
+ 9189  y
+ 9190  lsl
+ 9191  y
+ 9192  lsl
+ 9193  y
+ 9194  scrcpy --video-source=camera  --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --camera-size=1280x720 
+ 9195  scrcpy --list-camera
+ 9196  scrcpy --list-cameras
+ 9197  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --camera-size=1280x720 
+ 9198  y
+ 9199  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --camera-size=1280x720 
+ 9200  echo performance | setProfile
+ 9201  lsd
+ 9202  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --no-audio --camera-size=1280x720 
+ 9203  exit
+ 9204  y
+ 9205  tt
+ 9206  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+ 9207  y
+ 9208  tta
+ 9209  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+ 9210  echo performance | setProfile
+ 9211  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+ 9212  y
+ 9213  exit
+ 9214  nvim
+ 9215  y
+ 9216  lsl
+ 9217  y
+ 9218  lsl
+ 9219  y
+ 9220  nvim
+ 9221  clear
+ 9222  nvim
+ 9223  y
+ 9224  lsl
+ 9225  history 
+ 9226  history 1..10000 | grep dive build 
+ 9227  history 1..10000
+ 9228  history 1..10000 | grep dive 
+ 9229  dive --help
+ 9230  podman build --help
+ 9231  dive build -t podmaninstallation_container .
+ 9232  btop
+ 9233  podman ps
+ 9234  podman images
+ 9235  podman run podmaninstallation_container:latest
+ 9236  lsd
+ 9237  podman ps
+ 9238  podman ps -a
+ 9239  lsd
+ 9240  podman pa -a
+ 9241  podman ps -a
+ 9242  podman run -d podmaninstallation_container:latest
+ 9243  podman pa -q
+ 9244  podman ps -q
+ 9245  podman exec -it dazzling_neumann sh
+ 9246  y
+ 9247  lsl
+ 9248  y
+ 9249  lsl
+ 9250  podman run -d podmaninstallation_container:latest
+ 9251  podman ps -q
+ 9252  podman ps -a
+ 9253  lsd
+ 9254  lsl
+ 9255  lsd
+ 9256  podman run -d podmaninstallation_container:latest -t lab1
+ 9257  podman run -t podmaninstallation_container:latest -t lab1
+ 9258  podman run -dt --name lab1 podmaninstallation_container:latest
+ 9259  podman ps -a
+ 9260  podman stop sad_curran
+ 9261  podman ps -a
+ 9262  podman ps
+ 9263  podman ps -a
+ 9264  podman rm sad_curran
+ 9265  podman ps -a
+ 9266  podman rm heuristic_noyce
+ 9267  podman rm lab1
+ 9268  podman stop lab1
+ 9269  podman rm lab1
+ 9270  \tpodman run -dt --name lab1 podmaninstallation_container:latest
+ 9271  podman ps -a
+ 9272  podman exec -it lab1 sh
+ 9273  podman kill lab1
+ 9274  podman rm lab1
+ 9275  podman run -dt --name lab1 podmaninstallation_container:latest
+ 9276  podman exec -it lab1 sh
+ 9277  lsl
+ 9278  podman run -d hello-world
+ 9279  podman ps -a
+ 9280  podman ps 
+ 9281  podman stop lab1
+ 9282  podman rm charming_banzai lab1
+ 9283  podman ps -a
+ 9284  podman build -t hello https://github.com/containers/PodmanHello.git
+ 9285  podman run -it hello
+ 9286  podman ps -a
+ 9287  lsl
+ 9288  y
+ 9289  lsl
+ 9290  y]
+ 9291  y
+ 9292  nvim Dockerfile
+ 9293  lsl
+ 9294  y
+ 9295  lsl
+ 9296  y
+ 9297  nvim
+ 9298  y
+ 9299  nvim Dockerfile
+ 9300  lsl
+ 9301  dive 
+ 9302  lsl
+ 9303  dive build -t podmanLinuxLab:latest
+ 9304  dive build -t podmanLinuxLab:latest .
+ 9305  dive build -t podmanLinuxLab .
+ 9306  lsl
+ 9307  dive build -t podmanLinuxLab .
+ 9308  dive build -t podman_linux_lab . 
+ 9309  lsd
+ 9310  podman logs
+ 9311  podman images
+ 9312  exit
+ 9313  nvim
+ 9314  lsl
+ 9315  y
+ 9316  dive build -t podman_linux_lab . 
+ 9317  y
+ 9318  nvim
+ 9319  dive build -t podman_linux_lab . 
+ 9320  clear
+ 9321  podman images
+ 9322  lsl
+ 9323  y
+ 9324  nvim Dockerfile
+ 9325  y
+ 9326  nvim Dockerfile
+ 9327  lsl
+ 9328  cat Dockerfile
+ 9329  podman images
+ 9330  podman run -d --name lab1 podman_linux_env:latest
+ 9331  podman ps -q 
+ 9332  podman ps -a 
+ 9333  podman exec -it lab1 sh 
+ 9334  podman ps -a
+ 9335  podman kill lab1
+ 9336  podman ps -a
+ 9337  podman rm lab1
+ 9338  podman ps -a
+ 9339  podman rmi localhost/podman_linux_env:latest
+ 9340  podman images | grep env
+ 9341  lsl
+ 9342  nvim Dockerfile
+ 9343  useradd -h 
+ 9344  lsl
+ 9345  cat Dockerfile
+ 9346  lsl
+ 9347  nvim Dockerfile
+ 9348  lsl
+ 9349  nvim Dockerfile
+ 9350  dive build -t podman_linux_lab . 
+ 9351  y
+ 9352  dive build -t podman_linux_lab . 
+ 9353  dive build -t podman_linux_lab2 . 
+ 9354  lsl
+ 9355  y
+ 9356  dive build -t podman_linux_lab2 . 
+ 9357  nvim
+ 9358  lsl
+ 9359  podman images
+ 9360  dive build -t podman_linux_lab . 
+ 9361  nvim Dockerfile
+ 9362  dive build -t podman_linux_lab . 
+ 9363  lsl
+ 9364  podman images
+ 9365  podman run -d --name lab1 podman_linux_lab:latest
+ 9366  podman ps -a
+ 9367  podman exec -it lab1 sh 
+ 9368  podman images
+ 9369  podman exec -it lab1 sh 
+ 9370  podman info 
+ 9371  podman inspect localhost/podman_linux_lab:latest
+ 9372  podman exec -it lab1 sh 
+ 9373  podman pa -a
+ 9374  podman ps -a
+ 9375  podman run -d --name lab2 podman_linux_lab:latest
+ 9376  podman ps -a
+ 9377  podman kill lab1
+ 9378  podman ps 
+ 9379  podman kill lab2
+ 9380  podman ps -a
+ 9381  podman rm lab2 
+ 9382  podman ps -a
+ 9383  podman rm lab1
+ 9384  podman ps -a
+ 9385  clear
+ 9386  exit
+ 9387  lsl
+ 9388  clear
+ 9389  y
+ 9390  poweroff
+ 9391  y
+ 9392  lsl
+ 9393  y
+ 9394  nix-shell -p anydesk
+ 9395  unFree nix-shell -p anydesk
+ 9396  nix-shell -p rustdesk
+ 9397  unFree nix-shell -p rustdesk
+ 9398  btop
+ 9399  tt
+ 9400  unFree nix-shell -p rustdesk
+ 9401  helm 
+ 9402  helm version 
+ 9403  kubectl config current-context
+ 9404  helm repo list 
+ 9405  helm reop show 
+ 9406  helm repo show
+ 9407  helm repo list
+ 9408  ping https://charts.bitnami.com/bitnami
+ 9409  helm repo add bitnami https://charts.bitnami.com/bitnami 
+ 9410  helm repo list 
+ 9411  helm serach repo bitnami 
+ 9412  helm search repo bitnami
+ 9413  helm repo add eks https://aws.github.io/eks-charts
+ 9414  helm search repo eks
+ 9415  helm repo list
+ 9416  helm repo update bitnami
+ 9417  helm repo update eks
+ 9418  y
+ 9419  lsl
+ 9420  helm create payments
+ 9421  lsl
+ 9422  y
+ 9423  helm create shipping
+ 9424  lsl
+ 9425  y
+ 9426  echo performance | setProfile
+ 9427  y
+ 9428  lsl
+ 9429  exit
+ 9430  y
+ 9431  lsl
+ 9432  y
+ 9433  git clone git@github.com:Mukulkalsait/A01_100_Dockerfile_From_Scratch.git
+ 9434  y
+ 9435  clear
+ 9436  exit
+ 9437  poweroff
+ 9438  tt
+ 9439  cdN
+ 9440  lsl
+ 9441  exit
+ 9442  sudo nix flake update
+ 9443  cdN
+ 9444  sudo nix flake update 
+ 9445  nixConfig
+ 9446  cleawr
+ 9447  clear
+ 9448  snrsf --upgrade-all 
+ 9449  nvim
+ 9450  cd
+ 9451  y
+ 9452  lsl
+ 9453  y
+ 9454  lsl
+ 9455  cd ..
+ 9456  lsl
+ 9457  python3 -m venv .venv
+ 9458  ll
+ 9459  lsl
+ 9460  source ./.venv/bin/activate
+ 9461  lsl
+ 9462  y
+ 9463  uv pip install -r requrements.txt
+ 9464  uv list
+ 9465  uv pip list
+ 9466  lsl
+ 9467  uvicorn app.main:app --host 0.0.0.0 --port 8000
+ 9468  lsl
+ 9469  dive build -t fastapi_001 .
+ 9470  podman run -p 8000:8000 fastapi_001:latest
+ 9471  podman run fastapi_001:latest sleep 3600
+ 9472  lsd
+ 9473  podman run -d --name fastapi fastapi_001:latest 
+ 9474  lsd
+ 9475  podman ps
+ 9476  podman ps -a
+ 9477  podman remove fastapi
+ 9478  podman rm fastapi
+ 9479  podman pa -a
+ 9480  podman ps -a
+ 9481  podman run -d --name fastapi fastapi_001:latest sleep 3600
+ 9482  podman ps 
+ 9483  podman exec -it fastapi sh 
+ 9484  podman ps -a
+ 9485  podman kill fastapi
+ 9486  podman rm fastapi
+ 9487  lsl
+ 9488  podman ps -a
+ 9489  dive build -t fastapi_001:1.1 . 
+ 9490  podman run -d --name fastapi fastapi_001:1.1
+ 9491  podman images
+ 9492  podman ps -a
+ 9493  podman rm fastapi
+ 9494  podman ps -a
+ 9495  podman rmi fastapi_001:*
+ 9496  podman rmi fastapi_001:latest
+ 9497  podman rmi fastapi_001:1.1
+ 9498  lsl
+ 9499  dive build -t fastapi_001:1.2
+ 9500  dive build -t fastapi_001:1.2 .
+ 9501  podman run -d --name fastapi fastapi_001:1.2
+ 9502  podman inspect fastapi_001:1.2 --format 
+ 9503  podman inspect fastapi_001:1.2 --format "{{.Config.Cmd}}"
+ 9504  podman ps -a
+ 9505  podman rm fastapi
+ 9506  podman ps -a
+ 9507  podman rmi fastapi_001:1.2
+ 9508  dive build -t fastapi_001:1.3 
+ 9509  dive build -t fastapi_001:1.3 .
+ 9510  podman run -d --name fastapi fastapi_001:1.3
+ 9511  podman ps\ncurl http://localhost:8000/health\n
+ 9512  curl http://localhost:8000/health
+ 9513  lsd
+ 9514  podman ps 
+ 9515  podman ps -a
+ 9516  podman logs fastapi
+ 9517  \n\M-6mukuldk \M-0 ~ \M-0\M-0\M-0\M-0 ♥ 17:54 \M-0 podman ps\nCONTAINER ID  IMAGE       COMMAND     CREATED     STATUS      PORTS       NAMES\n\n\M-6mukuldk \M-0 ~ \M-0\M-0\M-0\M-0 ♥ 17:54 \M-0 podman ps -a\nCONTAINER ID  IMAGE                      COMMAND               CREATED             STATUS                         PORTS       NAMES\n3602a8ca9e3f  localhost/fastapi_001:1.3  uvicorn app.main:...  About a minute ago  Exited (1) About a minute ago  8000/tcp    fastapi\n\n\M-6mukuldk \M-0 ~ \M-0\M-0\M-0\M-0 ♥ 17:54 \M-0 podman logs fastapi\n\n\M-6mukuldk \M-0 ~ \M-0\M-0\M-0\M-0 ♥ 17:54 \M-0\n\n\n\n^Z
+ 9518  podman ps\ncurl http://localhost:8000/health\n
+ 9519  podman ps 
+ 9520  podman ps -a
+ 9521  podman logs fastapi
+ 9522  podman ps -a
+ 9523  podman logs fastapi
+ 9524  podman rm fastapi
+ 9525  podman run -d --name fastapi fastapi_001:1.3 -p 8000:8000
+ 9526  podman ps -a
+ 9527  podman kill fastapi
+ 9528  opdman ps 
+ 9529  podman ps 
+ 9530  podman ps -a 
+ 9531  podman rm fastapi
+ 9532  podman run -d --name fastapi -p 8000:8000 fastapi_001:1.3
+ 9533  podman logs fastapi
+ 9534  podman ps 
+ 9535  podman ps -a
+ 9536  podman rm fastapi
+ 9537  podman ps -a
+ 9538  podman run --name fastapi -p 8000:8000 fastapi_001:1.3
+ 9539  podman ps -a
+ 9540  podman rm fastapi
+ 9541  podman rmi fastapi_001:1.3
+ 9542  dive build -t fastapi_001:1.4
+ 9543  lsl
+ 9544  dive build -t fastapi_001:1.4 . 
+ 9545  podman run --name fastapi fastapi_001:1.4 -p 8000:8000
+ 9546  podman ps -a
+ 9547  podman  ps 
+ 9548  podman rm fastapi
+ 9549  podman rmi fastapi_001:1.4
+ 9550  dive build -t fastapi_001:1.5 . 
+ 9551  podman run --name fastapi fastapi_001:1.4 -p 8000:8000
+ 9552  podman ps -a
+ 9553  podman run --name fastapi fastapi_001:1.5 -p 8000:8000
+ 9554  podman run --name fastapi -p 8000:8000 fastapi_001:1.5
+ 9555  podman ps -a
+ 9556  podman rm fastapi
+ 9557  podman run --name fastapi -p 8000:8000 fastapi_001:1.5
+ 9558  curl http://localhost:8000
+ 9559  curl http://localhost:8000/health
+ 9560  curl http://localhost:8000/info
+ 9561  nixConfig
+ 9562  curl http://localhost:8000/health | jq
+ 9563  curl http://localhost:8000/info 
+ 9564  curl http://localhost:8000/info  | jq
+ 9565  podman ps 
+ 9566  podman ps -a
+ 9567  podman rm fastapi
+ 9568  podman images 
+ 9569  podman tag fastapi-001:1.5 docker.io/Mukulkalsait/fastapi-001:1.5
+ 9570  podman tag fastapi_001:1.5 docker.io/Mukulkalsait/fastapi_001:1.5
+ 9571  podman tag fastapi_001:1.5 docker.io/mukuldk/fastapi_001:1.5
+ 9572  podman push docker.io/mukuldk/fastapi_001:1.5
+ 9573  lsl
+ 9574  y
+ 9575  lsl
+ 9576  source ./.venv/bin/activate
+ 9577  uvicorn app.main:app --host 0.0.0.0 --port 8000
+ 9578  y
+ 9579  uvicorn main:app --host 0.0.0.0 --port 8000 
+ 9580  exit
+ 9581  lsl
+ 9582  y
+ 9583  dive build -t test . 
+ 9584  podman images
+ 9585  podman run --name test -p 8000:8000 test:latest
+ 9586  history 500 |  grep podman 
+ 9587  podman ps -a
+ 9588  podman rm test
+ 9589  podman run --name test -p 8000:8000 test:latest
+ 9590  podman rm test
+ 9591  podman run --name test -p 8000:8000 test:latest sleep 3600
+ 9592  podman exec -it test sh
+ 9593  podman kill test
+ 9594  podman rm test
+ 9595  9\n
+ 9596  podman rmi test:latest
+ 9597  dive build -t test . 
+ 9598  podman rmi test:latest
+ 9599  dive build -t test . 
+ 9600  podman run --name test -p 8000:8000 test:latest 
+ 9601  podman run --name test -p 8000:8000 test:latest sleep 3600
+ 9602  podman rm test
+ 9603  podman run --name test -p 8000:8000 test:latest sleep 3600
+ 9604  podman exec -it test sh 
+ 9605  podman kill test
+ 9606  claer
+ 9607  clear
+ 9608  podman images
+ 9609  podman ps -a
+ 9610  podman rm test
+ 9611  podman images 
+ 9612  podman remove te
+ 9613  podman rmi test:latest
+ 9614  clear
+ 9615  snrsf
+ 9616  lsd
+ 9617  resource
+ 9618  lsd
+ 9619  clear
+ 9620  lsd
+ 9621  tt
+ 9622  lsd
+ 9623  clear
+ 9624  poweroff
+ 9625  lsd
+ 9626  podman images
+ 9627  fastfetch
+ 9628  nixCopy 
+ 9629  lsl
+ 9630  y
+ 9631  tt
+ 9632  nixConfig
+ 9633  nixCopy
+ 9634  lsl
+ 9635  y
+ 9636  cd
+ 9637  y
+ 9638  nixConfig
+ 9639  nixCopy
+ 9640  y
+ 9641  nixConfig
+ 9642  cargo update all
+ 9643  lsl
+ 9644  y
+ 9645  zellij --version
+ 9646  tt ka
+ 9647  tt
+ 9648  nixConfig
+ 9649  buildah
+ 9650  snrsf
+ 9651  gmd
+ 9652  resource
+ 9653  gmd
+ 9654  systemctl --user start podman.socket
+ 9655  gmd -p
+ 9656  podmantui
+ 9657  podman-tui
+ 9658  gomanagedocker
+ 9659  tt
+ 9660  nixConfig
+ 9661  snrsf
+ 9662  nixConfig
+ 9663  gmd -p
+ 9664  gmd p
+ 9665  snrsf
+ 9666  tt
+ 9667  gmd
+ 9668  lsd
+ 9669  gmd
+ 9670  tt
+ 9671  gmd
+ 9672  tt
+ 9673  gmd
+ 9674  tt
+ 9675  lsd
+ 9676  podman-tui
+ 9677  exit
+ 9678  tt
+ 9679  nixConfig
+ 9680  snrsf
+ 9681  nixConfig
+ 9682  snrsf
+ 9683  podman-tui --socket unix:///run/user/$(id -u)/podman/podman.sock
+ 9684  whichProfiles
+ 9685  gmd
+ 9686  podman-tui --socket unix:///run/user/$(id -u)/podman/podman.sock
+ 9687  alias ptui='kitty @ --to unix:/tmp/kitty-$(id -u) launch --env KITTY_COLORS="color8=#8a8a8a;color9=#c14a4a;color10=#6a9955;color11=#b07a00;color12=#4078b8;color13=#a0316b;color14=#0f7a8a;color15=#8a8a8a" --hold podman-tui'
+ 9688  ptui
+ 9689  snrsf
+ 9690  alias ptui='KITTY_COLORS="color8=#8a8a8a;color9=#c14a4a;color10=#6a9955;color11=#b07a00;color12=#4078b8;color13=#a0316b;color14=#0f7a8a;color15=#8a8a8a" podman-tui'
+ 9691  ptui
+ 9692  snrsf
+ 9693  alias ptui='kitty @ set-colors --temporary "$(printf "color8 #8a8a8a\ncolor9 #c14a4a\ncolor10 #6a9955\ncolor11 #b07a00\ncolor12 #4078b8\ncolor13 #a0316b\ncolor14 #0f7a8a\ncolor15 #8a8a8a")" && podman-tui'
+ 9694  ptui
+ 9695  alias ptui='kitty @ set-colors "$(printf "color8 #8a8a8a\ncolor9 #c14a4a\ncolor10 #6a9955\ncolor11 #b07a00\ncolor12 #4078b8\ncolor13 #a0316b\ncolor14 #0f7a8a\ncolor15 #8a8a8a")" && podman-tui'
+ 9696  ptui
+ 9697  lsl
+ 9698  lsd
+ 9699  exit
+ 9700  clear
+ 9701  exit
+ 9702  tt
+ 9703  nixConfig
+ 9704  nix-shell -p ghostty
+ 9705  lsd
+ 9706  tt
+ 9707  exit
+ 9708  lsl
+ 9709  y
+ 9710  ls
+ 9711  tt
+ 9712  exit
+ 9713  ls
+ 9714  tt
+ 9715  exit
+ 9716  ls
+ 9717  tt
+ 9718  alias ptui='printf "color8 #8a8a8a\ncolor9 #c14a4a\ncolor10 #6a9955\ncolor11 #b07a00\ncolor12 #4078b8\ncolor13 #a0316b\ncolor14 #0f7a8a\ncolor15 #8a8a8a" | kitty @ set-colors && podman-tui'
+ 9719  ptui
+ 9720  q
+ 9721  exit
+ 9722  exit
+ 9723  exti
+ 9724  exit
+ 9725  y
+ 9726  mkdir -p ~/.config/ghostty/shaders
+ 9727  lsl
+ 9728  y
+ 9729  lsl
+ 9730  pwd
+ 9731  git clone https://github.com/sahaj-b/ghostty-cursor-shaders .
+ 9732  lsl
+ 9733  y
+ 9734  ls
+ 9735  tt
+ 9736  ls
+ 9737  tt
+ 9738  lsl
+ 9739  clear
+ 9740  podman-tui
+ 9741  k9s
+ 9742  nvim
+ 9743  lsl
+ 9744  exit
+ 9745  exit
+ 9746  tt
+ 9747  exit
+ 9748  tt
+ 9749  exit
+ 9750  tta
+ 9751  tta quiet-viola
+ 9752  exit
+ 9753  tt
+ 9754  tta
+ 9755  tta quiet-viola
+ 9756  exit
+ 9757  tta quiet-viola
+ 9758  exit
+ 9759  tta quiet-viola
+ 9760  exit
+ 9761  tta quiet-viola
+ 9762  exit
+ 9763  tta quiet-viola
+ 9764  exit
+ 9765  tta quiet-viola
+ 9766  lsl
+ 9767  clear
+ 9768  lsl
+ 9769  clear
+ 9770  lsl
+ 9771  podman-tui
+ 9772  exit
+ 9773  lsl
+ 9774  tta quiet-viola
+ 9775  lsl
+ 9776  exit
+ 9777  lsl
+ 9778  tt
+ 9779  tta quiet-viola
+ 9780  exit
+ 9781  lsl
+ 9782  tt
+ 9783  tta quiet-viola
+ 9784  exit
+ 9785  tta quiet-viola
+ 9786  lsl
+ 9787  podman-tui
+ 9788  clear
+ 9789  exit
+ 9790  lsl
+ 9791  tt
+ 9792  clear
+ 9793  exi
+ 9794  exit
+ 9795  lsl
+ 9796  clear
+ 9797  exit
+ 9798  lsl
+ 9799  tta quiet-viola
+ 9800  lsl
+ 9801  clear
+ 9802  tt
+ 9803  lsd
+ 9804  clear
+ 9805  exit
+ 9806  snrsf
+ 9807  ghostty
+ 9808  tt
+ 9809  lsl
+ 9810  exit
+ 9811  lsl
+ 9812  sl\nPermissions Size User    Group Date Modified Name\ndrwxr-x---     - mukuldk users 16 Sep 13:30   .android\ndrwxr-xr-x     - mukuldk users 17 Dec 13:52   .anydesk\ndrwxr-xr-x     - mukuldk users  6 Dec 16:50   .aws\ndrwxr-xr-x     - mukuldk users 19 Dec 13:08   .cache\ndrwxr-xr-x     - mukuldk users 19 Dec 12:47   .cargo\ndrwxr-xr-x     - mukuldk users 19 Dec 13:08   .config\ndrwxr-xr-x     - mukuldk users  7 Dec 15:27   .cursor\ndrwx------     - mukuldk users  8 Oct 22:19   .docker\ndrwxr-xr-x     - mukuldk users  7 Sep 12:08   .dotnet\ndrwxrwxrwx     - mukuldk users  1 Oct 13:27   .gallery\ndrwxr-xr-x     - mukuldk users 19 Dec 13:08   .icons\ndrwxr-xr-x     - mukuldk users  4 Dec 23:30   .kube\ndrwx------     - mukuldk users 27 Oct 11:52   .local\ndrwx------     - mukuldk users 25 Aug 13:08   .mozilla\ndrwxr-xr-x     - mukuldk users 28 Oct 19:54   .nix-defexpr\nlrwxrwxrwx     - mukuldk users 24 Aug 20:26   .nix-profile -> /home/mukuldk/.local/state/nix/profiles/profile\ndrwxr-xr-x     - mukuldk users 19 Nov 21:53   .npm\ndrwx------     - mukuldk users  8 Sep 10:13   .nv\ndrwx------     - mukuldk users 28 Aug 19:35   .pki\ndrwxr-xr-x     - mukuldk users  9 Oct 14:23   .rustup\ndrwx------     - mukuldk users 25 Sep 19:57  󰢬 .ssh\ndrwxr-xr-x     - mukuldk users 10 Dec 18:56   .steam\ndrwxr-xr-x     - mukuldk users 12 Nov 16:39   .terraform.d\ndrwxr-xr-x     - mukuldk users 19 Dec 13:08   .themes\ndrwxr-xr-x     - mukuldk users 20 Nov 00:01   .vscode\ndrwx------     - mukuldk users 24 Sep 22:42   .w3m\ndrwxr-xr-x     - mukuldk users 28 Sep 22:06   .zellij_layouts\ndrwx------     - mukuldk users 19 Dec 13:08   .zen\ndrwxr-xr-x     - mukuldk users  7 Dec 15:10   1_file\ndrwxr-x---     - mukuldk users  5 Dec 16:37  󰲂 Documents\ndrwxr-xr-x     - mukuldk users 29 Oct 22:14  󰉍 Downloads\ndrwxr-xr-x     - mukuldk users  5 Oct 15:23   go\ndrwxrwxrw-     - mukuldk users 19 Dec 09:13   nixos_copy\n.rw-------  7.4k mukuldk users 19 Dec 13:06  󱆃 .bash_history\n.rw-r--r--    60 mukuldk users 29 Aug 23:15  󰊢 .gitconfig\nlrwxrwxrwx     - mukuldk users 19 Dec 13:08   .gtkrc-2.0 -> /nix/store/cy8w6zxvgyprbab20kfxjwmxirlgjzq4-home-manager-files/.gtkrc-2.0\n.rw-------   190 mukuldk users  9 Nov 20:16   .mariadb_history\n.rw-r--r--  4.8k mukuldk users 10 Nov 22:33   .mycli.log\n.rw-r--r--  5.8k mukuldk users 10 Nov 22:32   .myclirc\n.rwxr-xr-x  5.8k mukuldk users 19 Jul 20:34   .myclirc_1\n.rw-r--r--    61 mukuldk users 28 Oct 19:54   .nix-channels\n.rw-------     5 mukuldk users 28 Oct 22:23   .node_repl_history\n.rw-r--r--   479 mukuldk users 19 Oct 15:50   .nvidia-settings-rc\n.rw-------   256 mukuldk users  7 Sep 19:01   .pulse-cookie\nlrwxrwxrwx     - mukuldk users 10 Dec 17:50   .steampath -> /home/mukuldk/.steam/sdk32/steam\nlrwxrwxrwx     - mukuldk users 10 Dec 17:50   .steampid -> /home/mukuldk/.steam/steam.pid\n.rw-r--r--   165 mukuldk users 11 Dec 22:38   .wget-hsts\nlrwxrwxrwx     - mukuldk users 19 Dec 13:08   .Xresources -> /nix/store/cy8w6zxvgyprbab20kfxjwmxirlgjzq4-home-manager-files/.Xresources\n.rw-r--r--   76k mukuldk users 19 Dec 13:21   .zcompdump\n.rw-------  9.5k mukuldk users 25 Aug 11:07  󱆃 .zsh_history\nlrwxrwxrwx     - mukuldk users 19 Dec 13:08  󱆃 .zshenv -> /nix/store/cy8w6zxvgyprbab20kfxjwmxirlgjzq4-home-manager-files/.zshenv\nlrwxrwxrwx     - mukuldk users 19 Dec 13:08  󱆃 .zshrc -> /nix/store/cy8w6zxvgyprbab20kfxjwmxirlgjzq4-home-manager-files/.zshrc\n.rw-r--r--  4.8k mukuldk users 17 Dec 20^Z
+ 9813  clear
+ 9814  exit
+ 9815  exit
+ 9816  fastfetch
+ 9817  clear
+ 9818  exit
+ 9819  ls
+ 9820  lsl
+ 9821  exit
+ 9822  tt
+ 9823  exit
+ 9824  fastfetch
+ 9825  exit
+ 9826  tt
+ 9827  exit
+ 9828  exit
+ 9829  lsl
+ 9830  ghostty --themes
+ 9831  ghostty --help
+ 9832  ghostty list-themes
+ 9833  exit
+ 9834  ghostty --help
+ 9835  ghostty +list-themes
+ 9836  exit
+ 9837  ghostty +list-themes
+ 9838  exit
+ 9839  lsl
+ 9840  tt
+ 9841  nvim
+ 9842  podman-tui
+ 9843  exit
+ 9844  exit
+ 9845  exit
+ 9846  exit
+ 9847  exit
+ 9848  exit
+ 9849  fastfetch
+ 9850  lsl
+ 9851  y
+ 9852  lsl
+ 9853  clear
+ 9854  ghostty +list-themes
+ 9855  ghostty --help
+ 9856  ghostty +list-colors
+ 9857  ghostty -h
+ 9858  ghostty --help
+ 9859  ghostty +list-fonts
+ 9860  ghostty --help
+ 9861  ghostty +list-keybindings
+ 9862  ghostty +list-keybinds
+ 9863  lsl
+ 9864  tt
+ 9865  nixConfig
+ 9866  ghostty +list-keybinds
+ 9867  exit
+ 9868  exit
+ 9869  cleawr
+ 9870  clear
+ 9871  exit
+ 9872  exit
+ 9873  y
+ 9874  lsl
+ 9875  tt
+ 9876  exit
+ 9877  ip
+ 9878  lsl
+ 9879  clear
+ 9880  ls
+ 9881  ilsl
+ 9882  ls
+ 9883  lsl
+ 9884  ls
+ 9885  tt
+ 9886  ils
+ 9887  ls
+ 9888  clear
+ 9889  iexit
+ 9890  exit
+ 9891  ls
+ 9892  tt
+ 9893  ils
+ 9894  ls
+ 9895  exit
+ 9896  ls
+ 9897  tt
+ 9898  lsl
+ 9899  nivm
+ 9900  nvim
+ 9901  lsli
+ 9902  lsl
+ 9903  clear
+ 9904  asdf
+ 9905  ls
+ 9906  exit
+ 9907  exit
+ 9908  exit
+ 9909  tt
+ 9910  lsl
+ 9911  tt
+ 9912  exit
+ 9913  exit
+ 9914  exit
+ 9915  exit
+ 9916  exit
+ 9917  lsl
+ 9918  tt
+ 9919  exit
+ 9920  t
+ 9921  exit
+ 9922  y
+ 9923  tt
+ 9924  nixConfig
+ 9925  y
+ 9926  exit
+ 9927  exit
+ 9928  snrsf
+ 9929  exit
+ 9930  clear
+ 9931  exit
+ 9932  lsl
+ 9933  tt
+ 9934  exit
+ 9935  exit
+ 9936  lsl
+ 9937  snrsf
+ 9938  tt
+ 9939  exit
+ 9940  tt
+ 9941  exit
+ 9942  zsh
+ 9943  exit
+ 9944  lsl
+ 9945  exit
+ 9946  zsh
+ 9947  exit
+ 9948  exit
+ 9949  exit
+ 9950  exit
+ 9951  lsl
+ 9952  nvim
+ 9953  clear
+ 9954  tt
+ 9955  clear
+ 9956  lsl
+ 9957  y
+ 9958  zsh
+ 9959  set -o vi
+ 9960  exit
+ 9961  cd
+ 9962  rg "bindkey -v" ~/.zshrc ~/.config/zsh ~/.zsh\n
+ 9963  ls
+ 9964  cd
+ 9965  ls
+ 9966  lsl
+ 9967  grep -R "bindkey -v" ~\n
+ 9968  sudo grep -R "bindkey -v" ~\n
+ 9969  btop
+ 9970  y
+ 9971  nixCopy
+ 9972  nvim
+ 9973  lsl
+ 9974  y
+ 9975  nvim
+ 9976  y
+ 9977  lsl
+ 9978  cd ..
+ 9979  lsl
+ 9980  cd ..
+ 9981  lsl
+ 9982  cd ..
+ 9983  lsl
+ 9984  clear
+ 9985  exit
+ 9986  exit
+ 9987  zsh
+ 9988  dd
+ 9989  bindkey | grep vi\n
+ 9990  exit
+ 9991  grep -R "bindkey" ~/.config/zsh\ngrep -R "set -o vi" ~/.config/zsh\n
+ 9992  snrsf
+ 9993  lsl
+ 9994  asdf
+ 9995  exit
+ 9996  tt
+ 9997  iasdf
+ 9998  asdfi
+ 9999  lsl
+10000  exit
+10001  lsl
+10002  tt
+10003  nvim
+10004  nixConfig
+10005  y
+10006  exi
+10007  exit
+10008  exit
+10009  y
+10010  exit
+10011  poweroff
+10012  lsl
+10013  exit
+10014  lsl
+10015  tt
+10016  nvim
+10017  y
+10018  exit
+10019  exit
+10020  exit
+10021  tt
+10022  exit
+10023  nixConfgi
+10024  nixConfig
+10025  exit
+10026  snrsf
+10027  y
+10028  exit
+10029  exit
+10030  lsl
+10031  nixConfig
+10032  y
+10033  snrsf
+10034  ghostty --help
+10035  ghostty +list-actions
+10036  ghostty +list-keybinds
+10037  ghostty +list-fonts
+10038  tt
+10039  ghostty +list-fonts
+10040  y
+10041  lsl
+10042  exit
+10043  clear
+10044  fc-list | grep -i hack\n
+10045  fc-list
+10046  i
+10047  fc-list | grep -i hack\n
+10048  fc-cache -rv\n
+10049  exit
+10050  pkill ghostty\n
+10051  tta 
+10052  fc-list :spacing=100 family | sort -u\n
+10053  y
+10054  btop
+10055  y
+10056  clear
+10057  exit
+10058  exit
+10059  exit
+10060  exit
+10061  reboot 
+10062  tt
+10063  y
+10064  lsl
+10065  y
+10066  python3 -m venv .venv
+10067  source ./.venv/bin/activate
+10068  uv pip install -r requirements.txt
+10069  uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10070  y
+10071  cd -
+10072  uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10073  lsl
+10074  cd pytest
+10075  uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10076  lsl
+10077  dive build -t fastapi_001:1.5 . 
+10078  lsl
+10079  podman build -t fastapi_001:1.5 . 
+10080  lsd
+10081  podman build -t fastapi_001:1.5 . 
+10082  podman images
+10083  podman run --name fastapi -p 8000:8000 fastapi_001:1.5
+10084  podman run --name fastapi -p 8000:8000 fastapi_001:1.5 uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10085  podman ps -a
+10086  podman rm fastapi
+10087  podman run --name fastapi -p 8000:8000 fastapi_001:1.5 uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10088  podman ps -a 
+10089  podman rm fastapi
+10090  podman images
+10091  podman rmi localhost/fastapi_001:1.5
+10092  alias docker='podman'
+10093  docker
+10094  lsl
+10095  dive build -t fastapi_001:1.5 . 
+10096  dive --source podman build --t fastapi_001:1.6
+10097  podman build -t fastapi_001:1.6 .
+10098  dive --source podman fastapi_001:1.6
+10099  lsl
+10100  y
+10101  nixConfig
+10102  snrsf
+10103  podman images
+10104  dive localshot/fastapi_001
+10105  resource
+10106  dive localhost/fastapi_001
+10107  dive fastapi_001
+10108  dive fastapi_001:1.6
+10109  dive localhost/fastapi_001:1.6
+10110  lsl
+10111  podman images
+10112  podman run --name fastapi -p 8000:8000 fastapi_001:1.6 uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10113  podman build -t fastapi_001:1.7 .
+10114  podman run --name fastapi -p 8000:8000 fastapi_001:1.7 uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10115  podman ps -a
+10116  podman rm fastapi
+10117  podman run --name fastapi -p 8000:8000 fastapi_001:1.7 uvicorn backend.main:app --host 0.0.0.0 --port 8000
+10118  exit
+10119  exit
+10120  xit
+10121  podman images
+10122  podman ps -a
+10123  podman rm *
+10124  for n in $(podman ps -a); do \npodman rm $n; done
+10125  for n in $(podman ps -aq); do \npodman rm $n; done
+10126  for n in $(podman ps -a -q); do \npodman rm $n; done
+10127  podman pa -a
+10128  podman ps -a
+10129  clear
+10130  exit
+10131  poweroff
+10132  lsl
+10133  history 
+10134  lsl
+10135  lsli
+10136  y
+10137  tt
+10138  set o -vi
+10139  run-help i
+10140  lsl
+10141  clear
+10142  bash
+10143  man zsh
+10144  man bash
+10145  lsl
+10146  y
+10147  lsl
+10148  git clone git@github.com:iam-veeramalla/kubernetes-gateway-api.git
+10149  lsl
+10150  y
+10151  exit
+10152  nvim
+10153  y
+10154  lsl
+10155  y
+10156  scrcpy --list-cameras
+10157  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+10158  y
+10159  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+10160  nix-shell -p openshot-qt
+10161  nix-shell -p libsForQt5.kdenlive
+10162  nix-shell -p kdePackages.kdenlive
+10163  y
+10164  lsl
+10165  nixConfig
+10166  snrsf
+10167  sudo nix-collect-garbage -d 
+10168  nixOptimise
+10169  resource
+10170  editVideo
+10171  nvidia-smi 
+10172  exit
+10173  watch -n 1 nvidia-smi
+10174  y
+10175  exit
+10176  y
+10177  lsl
+10178  y
+10179  lsl
+10180  y
+10181  lsl
+10182  y
+10183  lsl
+10184  cd ..
+10185  lsl
+10186  y
+10187  lsl
+10188  y
+10189  lsl
+10190  y
+10191  lsl
+10192  cat requirements.txt
+10193  cat application/main.py
+10194  python3 -m venv .venv
+10195  uv pip install -r requirements.txt
+10196  source ./.venv/bin/activate
+10197  uv pip install -r requirements.txt
+10198  uvicorn application.main:app --host 0.0.0.0 --port 8000
+10199  y
+10200  uvicorn application.main:app --host 0.0.0.0 --port 8000
+10201  lsl
+10202  podman-tui
+10203  dive 
+10204  podman build -t fastapi_001:2.1 .
+10205  podman images
+10206  dive localhost/fastapi_001:2.1
+10207  podman run --name fastapi -p 8000:8000 fastapi_001:2.1
+10208  podman ps -a
+10209  podman rm fastapi
+10210  podman run --name fastapi -p 8000:8000 fastapi_001:2.1
+10211  podman ps -a
+10212  podman rm fastapi
+10213  podman rmi localhost/fastapi_001:2.1
+10214  podman images
+10215  podman build -t fastapi_001:2.2 .
+10216  podman run --name fastapi -p 8000:8000 fastapi_001:2.2
+10217  podman run --name fastapi -p 8000:8000 fastapi_001:2.2 uvicorn application.main:app --host 0.0.0.0 --port 8000
+10218  podman rm fastapi
+10219  podman run --name fastapi -p 8000:8000 fastapi_001:2.2 uvicorn application.main:app --host 0.0.0.0 --port 8000
+10220  podman exec -it fastapi sh
+10221  podman ps -a
+10222  podman rm fastapi
+10223  podman rmi localhost/fastapi_001:2.2
+10224  podman build -t fastapi_001:2.3 .
+10225  podman run --name fastapi -p 8000:8000 fastapi_001:2.3
+10226  podman rm fastapi
+10227  podman images
+10228  podman rmi localhost/fastapi_001:1.6
+10229  podman rmi localhost/fastapi_001:1.7
+10230  podman images
+10231  podman tag fastapi_001:2.3 docker.io/mukuldk/fastapi-001:2.3
+10232  podman push docker.io/mukuldk/fastapi-001:2.3
+10233  lsl
+10234  podman ps -a
+10235  w
+10236  podman-compose up 
+10237  podman-compose up .
+10238  OA
+10239  podman-compose up .
+10240  y
+10241  podman-compose up .
+10242  podman-compose up 
+10243  podman rm fastapi
+10244  podman rmi fastapi-001:2.3
+10245  podman rmi fastapi_001:2.3
+10246  podman build -t fastapi_001:2.4 .
+10247  podman-compose up 
+10248  podman-compose down
+10249  podman ps -a
+10250  podman images
+10251  podman rmi fastapi_001:2.4
+10252  podman build -t fastapi_001:2.5 . 
+10253  podman images
+10254  podman-compose up 
+10255  podman-compose down
+10256  podman-compose up 
+10257  podman exec -it fastapi sh
+10258  podman-compose down
+10259  podman ps -a
+10260  podman-compose up 
+10261  podman exec -it fastapi sh
+10262  podman-compose down
+10263  podman-compose up 
+10264  podman exec -it fastapi sh 
+10265  podman-compose d~
+10266  podman-compose down
+10267  podman ps -a
+10268  podman-compose up 
+10269  podman exec -it fastapi sh 
+10270  podman-compose down
+10271  podman ps -a
+10272  podman-compose up 
+10273  podman exec -it fastapi sh 
+10274  podman-compose down 
+10275  podman images
+10276  podman ps -a
+10277  nvim
+10278  clear
+10279  exit
+10280  exit
+10281  exit
+10282  exit
+10283  editVideo
+10284  watch -n 1 nvidia-smi
+10285  exit
+10286  poweroff
+10287  editVideo
+10288  tt
+10289  echo performance | setProfile
+10290  y
+10291  exit
+10292  tta
+10293  y
+10294  exit
+10295  y
+10296  exit
+10297  y
+10298  ky
+10299  y
+10300  lsl
+10301  7z a pocofme.zip ./*
+10302  lsl
+10303  y
+10304  echo performance | setProfile
+10305  tt
+10306  echo performance | setProfile
+10307  exit
+10308  cdN
+10309  sudo nix flake update
+10310  nixConfig
+10311  cde 
+10312  cd 
+10313  exit
+10314  exit
+10315  lsl
+10316  y
+10317  lsl
+10318  y
+10319  lsl
+10320  7z a mainpic.zip ./0000.png
+10321  lsl
+10322  y
+10323  lsl
+10324  y
+10325  glow 
+10326  nvim
+10327  tt
+10328  exit
+10329  tth
+10330  xit
+10331  exit
+10332  exit
+10333  clear
+10334  y
+10335  xit
+10336  exi
+10337  exit
+10338  lsl
+10339  cdN
+10340  nixConfig
+10341  tt
+10342  fg
+10343  exit
+10344  fg
+10345  tt
+10346  nixConfig
+10347  y
+10348  yazi
+10349  lsl
+10350  pwd
+10351  cd
+10352  lsl
+10353  cd .config/yazi
+10354  ls
+10355  y
+10356  nvim
+10357  y
+10358  clear
+10359  cdN
+10360  nixVer --list-generations
+10361  lsl
+10362  exit
+10363  poweroff 
+10364  echo performance | setProfile
+10365  y
+10366  lsl
+10367  git clone git@github.com:Mukulkalsait/A02_RHCSA_Reality_Check.git
+10368  lsl
+10369  y
+10370  tt
+10371  nvim
+10372  lsl
+10373  y
+10374  lsl
+10375  ls
+10376  lsl
+10377  mkdir ./a
+10378  sudo su
+10379  y
+10380  exit
+10381  lsl
+10382  echo $term
+10383  echo $TERM
+10384  nvim
+10385  clear
+10386  exit
+10387  nixConfig
+10388  exit
+10389  snrsf --upgrade-all 
+10390  exit
+10391  exit
+10392  exit
+10393  alsl
+10394  lsl
+10395  nvim
+10396  tt
+10397  nvim
+10398  nixConfig
+10399  exit
+10400  snrsf
+10401  lsl
+10402  tt
+10403  nvim
+10404  clear
+10405  exit
+10406  exit
+10407  exit
+10408  tt
+10409  nvim
+10410  nixConfig
+10411  snrsf
+10412  tt
+10413  nvim
+10414  snrsf
+10415  exit
+10416  exit
+10417  exit
+10418  tt
+10419  nvim
+10420  exit
+10421  exit
+10422  lsl
+10423  y
+10424  snrsf
+10425  lsl
+10426  y
+10427  exit
+10428  y
+10429  cleaer
+10430  exit
+10431  btop
+10432  lsl
+10433  exit
+10434  y
+10435  tt
+10436  nixConfig
+10437  snrsf
+10438  lsl
+10439  tt
+10440  echo $TERM
+10441  lsl
+10442  y
+10443  lsl
+10444  tt
+10445  ilsl
+10446  lsl
+10447  nvim
+10448  clear
+10449  exit
+10450  exit
+10451  exit
+10452  exit
+10453  exit
+10454  exit
+10455  exit
+10456  lsl
+10457  tt
+10458  exit
+10459  eis
+10460  texit
+10461  exit
+10462  nvim
+10463  y
+10464  exit
+10465  exit
+10466  exit
+10467  tt
+10468  y
+10469  lsl
+10470  nixConfig
+10471  y
+10472  snrsf
+10473  y
+10474  tt
+10475  lsl
+10476  y
+10477  cd
+10478  y
+10479  exit
+10480  exit
+10481  exit
+10482  i
+10483  exit
+10484  lsl
+10485  nvim
+10486  y
+10487  nvim
+10488  lsl
+10489  y
+10490  podman build -t ubuntu-test . 
+10491  lsl
+10492  podman images
+10493  dive localhost/ubuntu-test:latest
+10494  podman run --name test-ubuntu localhost/ubuntu-test:latest
+10495  lsd
+10496  podman ps -a
+10497  podman rm test-ubuntu
+10498  podman run --name test-ubuntu --rm -d localhost/ubuntu-test:latest
+10499  podman exec -it test-ubuntu sh 
+10500  podman ps 
+10501  podma kill 
+10502  podman kill test-ubuntu
+10503  podman rm test-ubuntu
+10504  podman ps -a
+10505  scrcpy --list-cameras
+10506  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+10507  exit
+10508  lsl
+10509  y
+10510  lsl
+10511  podman build -t test-rocky . 
+10512  OA
+10513  podman build -t test-rocky . 
+10514  podman images
+10515  dive localhost/test-rocky
+10516  podman run --name test-rocky --rm -d localhost/test-rocky:latest
+10517  podman exec -it test-rocky sh 
+10518  podman ps 
+10519  podman kill test-rocky
+10520  ls
+10521  y
+10522  lsl
+10523  podman build -t test-ubi . 
+10524  lsl
+10525  podman images
+10526  dive localhost/test-ubi
+10527  podman run --name test-ubi --rm -d localhost/test-ubi:latest
+10528  podman ps -a
+10529  podman images
+10530  podman ps -a
+10531  podman ps 
+10532  podman ps -q
+10533  podman run --name test-ubi --rm  localhost/test-ubi:latest
+10534  podman ps -a
+10535  podman run --name test-ubi localhost/test-ubi:latest
+10536  podman ps -a
+10537  podman run --name test-ubi localhost/test-ubi:latest sh
+10538  podman ps -a
+10539  podman rm test-ubi
+10540  podman run --name test-ubi localhost/test-ubi:latest sh
+10541  podman rm test-ubi
+10542  podman run --name test-ubi localhost/test-ubi:latest sleep 3600
+10543  podman ps -a
+10544  podman exec -it test-ubi sh 
+10545  podman kill test-ubi
+10546  podman rm test-ubi
+10547  podman images 
+10548  podman rmi test-ubi:latest
+10549  podman build -t test-ubi:1.1 .
+10550  podman run --name test-ubi --rm -d localhost/test-ubi:1.1
+10551  podman ps 
+10552  podman exec -it test-ubi sh 
+10553  podman ps -a
+10554  y
+10555  podman build -t test-arch:1.0 . 
+10556  podman images
+10557  dive localhost/test-arch
+10558  dive localhost/test-arch:1.0
+10559  podman run --name test-arch --rm -d localhost/test-arch:1.0
+10560  podman run --name test-arch --rm -d localhost/test-arch:1.0 sleep 3600
+10561  podman exec -it test-arch sh 
+10562  podman ps -a
+10563  podman images
+10564  podman rmi test-arch:1.0
+10565  podman build -t test-arch:1.1 .
+10566  podman run --name test-arch --rm -d localhost/test-arch:1.1 
+10567  podman exec -it test-arch sh 
+10568  podman kill test-arch
+10569  lsl
+10570  y
+10571  truncate -s 100M ./disks/ubuntu/disk1.img
+10572  truncate -s 100M ./disks/ubuntu/disk2.img
+10573  truncate -s 100M ./disks/ubi/disk1.img
+10574  truncate -s 100M ./disks/ubi/disk2.img
+10575  truncate -s 100M ./disks/arch/disk1.img
+10576  truncate -s 100M ./disks/arch/disk2.img
+10577  truncate -s 100M ./disks/rocky/disk1.img
+10578  truncate -s 100M ./disks/rocky/disk2.img
+10579  y
+10580  lsl
+10581  cd arch
+10582  lsl
+10583  podman images
+10584  lsl
+10585  y
+10586  lsl
+10587  podman-compose up 
+10588  podman images
+10589  podman-compose up 
+10590  podman-compose down 
+10591  podman-compose up 
+10592  podman exec -it ubuntu-lts sh
+10593  podman-compose down 
+10594  exit
+10595  exit
+10596  poweroff
+10597  tt
+10598  btop
+10599  poweroff
+10600  lsl
+10601  tt
+10602  y
+10603  exit
+10604  lsl
+10605  tt
+10606  y
+10607  nvim
+10608  lsl
+10609  cd - 
+10610  y
+10611  lsl
+10612  podman-compose up -d
+10613  lsd
+10614  echo performance | setProfile
+10615  jw
+10616  lsl
+10617  podman exec -it ubuntu-lts sh
+10618  podman exec -it rhel-ubi sh 
+10619  exit
+10620  podman exec -it rocky
+10621  podman exec -it rocky /bin/bash
+10622  for  a in $(podman ps -q); do \npodman exec $a systemctl status \n; done
+10623  for  a in $(podman ps -q); do \npodman exec $a systemctl status firewalld ; done
+10624  for  a in $(podman ps -q); do \npodman exec $a systemctl status ssh  ; done
+10625  for  a in $(podman ps -q); do \npodman exec $a systemctl status NetworkManager ; done
+10626  for a in $(podman ps -q); do\npodman exec $a systemctl status sshd; done
+10627  for a in $(podman ps -q); do\npodman exec $a systemctl status systemd-networkd ; done
+10628  for a in $(podman ps -q); do\npodman exec $a systemctl status systemd-resolved  ; done
+10629  podman exec -it ubuntu-lts /bin/bash
+10630  ssh -o user@localhost -p 2201
+10631  ssh user@localhsot -p 2201
+10632  podman exec -it ubuntu-lts /bin/bash
+10633  ssh -o StrictHostKeyChecking=no examuser-ubuntu@localhost -p 2201
+10634  ssh -o StrictHostKeyChecking=no examuser-arch@localhost -p 2203
+10635  ssh -o StrictHostKeyChecking=no examuser-rocky@localhost -p 2202
+10636  ssh -o StrictHostKeyChecking=no examuser-ubi@localhost -p 2204
+10637  podman exec -it arch /bin/bash
+10638  ssh -o StrictHostKeyChecking=no examuser-arch@localhost -p 2203
+10639  podman exec -it rocky bash 
+10640  ssh -o StrictHostKeyChecking=no examuser-rockey@localhost 2202 
+10641  ssh -o StrictHostKeyChecking=no examuser-rockey@localhost -p 2202
+10642  podman exec -it rocky bash
+10643  exit
+10644  lsl
+10645  podman-compose down
+10646  exit
+10647  poweroff
+10648  lsl
+10649  exit
+10650  tt
+10651  nixConfig
+10652  tt
+10653  exit
+10654  exit
+10655  exit
+10656  exit
+10657  snrsf
+10658  y
+10659  echo performance | setProfile
+10660  y
+10661  ls
+10662  lsl
+10663  y
+10664  glwo
+10665  glow
+10666  y
+10667  glow 
+10668  nixConfig
+10669  snrsf
+10670  lsd
+10671  lsl
+10672  snrsf
+10673  lsd
+10674  exit
+10675  btop
+10676  lsl
+10677  btop
+10678  dive localhost/test-arch:1.0
+10679  dive
+10680  clear
+10681  fastfetch
+10682  rustscan
+10683  nixConfig
+10684  exit
+10685  dua
+10686  dust /
+10687  sudo dust / 
+10688  sudo dua i / 
+10689  exit
+10690  exit
+10691  echo performance | setProfile
+10692  ls
+10693  lsl
+10694  clear
+10695  exit
+10696  fastfetch
+10697  exit
+10698  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720
+10699  echo ~
+10700  echo performance | setProfile
+10701  ls --help
+10702  ln --help
+10703  y
+10704  ly
+10705  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720
+10706  btop
+10707  watch -n 1 nvidia-smi
+10708  y
+10709  clear
+10710  exit
+10711  exit
+10712  poweroff
+10713  exit
+10714  tt
+10715  exit
+10716  exit
+10717  tt
+10718  exit
+10719  exit
+10720  tta
+10721  exit
+10722  tth
+10723  tt ka
+10724  tth 
+10725  clear
+10726  tt
+10727  cdN
+10728  lsl
+10729  sudo nix flake update
+10730  nixConfig
+10731  obs --versino
+10732  btop
+10733  snrsf
+10734  exit
+10735  reboot
+10736  tt
+10737  btop
+10738  exit
+10739  exit
+10740  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720
+10741  y
+10742  lsd
+10743  y
+10744  lsl
+10745  glow
+10746  lsl
+10747  nixConfig
+10748  kdash
+10749  pv 
+10750  dust 
+10751  dua 
+10752  dua /
+10753  ctop
+10754  gomanagedocker
+10755  buildah
+10756  :w
+10757  ls
+10758  lsd
+10759  yazi
+10760  ls
+10761  podman build -t textarch . 
+10762  podman build -t arch:1.0 . 
+10763  lsd
+10764  podman images
+10765  podman rmi ceefd37598c8
+10766  podman images
+10767  lsd
+10768  lsl
+10769  y
+10770  podman run --name arch --rm localhost/arch:1.0
+10771  podman run --name arch --rm localhost/arch:1.0 watch 1 ls 
+10772  podman run --name arch --rm localhost/arch:1.0 sh
+10773  podman ps -a
+10774  podman run --name arch --rm localhost/arch:1.0 /bin/bash
+10775  podman images
+10776  dive localhost/arch:1.0
+10777  podman run --name arch --rm localhost/arch:1.0 /scripts/init1.sh
+10778  podman run --name arch localhost/arch:1.0 /scripts/init1.sh
+10779  podman ps -a
+10780  podman run --name arch localhost/arch:1.0 which systemd 
+10781  podman ps -a
+10782  podman rm arch
+10783  podman run --name arch --rm localhost/arch:1.0 which systemd 
+10784  podman run --name arch --rm localhost/arch:1.0 readline /sbin/init
+10785  podman run --name arch --rm localhost/arch:1.0 ls
+10786  podman run --name arch --rm localhost/arch:1.0 ls /sbin
+10787  podman run --name arch --rm localhost/arch:1.0 ls /sbin | grep systemd
+10788  podman run --name arch --rm localhost/arch:1.0 ls /sbin/systemd-run | grep systemd
+10789  podman run --name arch --rm localhost/arch:1.0 ls /usr/lib | grep systemd
+10790  podman run --name arch --rm localhost/arch:1.0 ls -al /usr/lib | grep systemd
+10791  podman run --name arch --rm localhost/arch:1.0 ls -al /usr/lib/systemd  | grep systemd
+10792  podman run --name arch --rm localhost/arch:1.0  /usr/lib/systemd/systemd
+10793  podman exec -it arch /bin/bas
+10794  podman exec -it arch /bin/bass
+10795  podman exec -it arch /bin/bash
+10796  podman logs arch
+10797  podman ps -a
+10798  podman build -t arch:1.1 . 
+10799  podman images
+10800  podman rmi arch:1.0
+10801  podman run --name arch --rm localhost/arch:1.1
+10802  podman exec -it arch ps 
+10803  podman exec -it arch ps -p 1 
+10804  podman exec -it arch systemctl status 
+10805  podman kill arch
+10806  podman run --privileged --rm -it \\n  --systemd=always \\n  -v /sys/fs/cgroup:/sys/fs/cgroup:rw \\n  arch-yourimage\n
+10807  podman run --privileged --rm -it \\n  --systemd=always \\n  -v /sys/fs/cgroup:/sys/fs/cgroup:rw \\n  localhost/arch:1.1\n
+10808  podman ps 
+10809  podman kill hungry_bohr
+10810  clear
+10811  podman images
+10812  podman ps -a
+10813  podman rmi arch:1.1
+10814  podman rmi archlinux:latest
+10815  podman images
+10816  dive localhost/arch:1.0 
+10817  podman ps -a
+10818  podman run --name arch --rm localhost/arch:1.0   
+10819  exit
+10820  reboot
+10821  tt
+10822  exit
+10823  tth
+10824  exit
+10825  tt
+10826  echo performance | setProfile
+10827  exit
+10828  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720
+10829  y
+10830  tta
+10831  lsd
+10832  exit
+10833  btop
+10834  dive localhost/arch:1.0 
+10835  yazi
+10836  glow
+10837  y
+10838  glow
+10839  y
+10840  podman images
+10841  podman rmi arch:1.0
+10842  podman rmi archlinux:latest
+10843  lsl
+10844  podman rmi 
+10845  podman images
+10846  podman build -t arch:1.0 . 
+10847  lsl
+10848  podman images
+10849  dive localhost/arch:1.0 
+10850  podman run --name arch --rm localhost/arch:1.0   
+10851  podman run --name arch --rm localhost/arch:1.0 ls 
+10852  podman run --name arch --rm localhost/arch:1.0 sh 
+10853  podman run --name arch --rm localhost/arch:1.0 /bin/bash
+10854  run-help podman
+10855  podman run --name arch localhost/arch:1.0 which systemd 
+10856  podman ps -a
+10857  podman rm arch
+10858  podman rum --name arch --rm localhost/arch:1.0
+10859  podman run --name arch localhost/arch:1.0 which systemd
+10860  podman run --name arch localhost/arch:1.0 readline /sbin/systemd
+10861  podman rm arch
+10862  podman run --name arch localhost/arch:1.0 readline /sbin/systemd
+10863  podman run --name arch localhost/arch:1.0 ls 
+10864  podman rm arch
+10865  podman run --name arch --rm  localhost/arch:1.0 ls 
+10866  podman run --name arch --rm  localhost/arch:1.0 ls /usr/sbin/
+10867  podman run --name arch --rm  localhost/arch:1.0 ls /usr/sbin/ | grep systemd
+10868  podman run --name arch --rm  localhost/arch:1.0 ls /usr/lib/ | grep systemd
+10869  podman run --name arch --rm  localhost/arch:1.0 ls -al  /usr/lib/ | grep systemd
+10870  podman run --name arch --rm  localhost/arch:1.0 ls -al  /usr/lib/systemd/ | grep systemd
+10871  podman run --name arch --rm  localhost/arch:1.0 /usr/lib/systemd/systemd 
+10872  podman exec -it arch /bin/bash
+10873  podman kill arch
+10874  y
+10875  podman build -t arch:1.1 .
+10876  podman images
+10877  podman rmi localhost/arch:1.0
+10878  podman images
+10879  podman run --name arch --rm  localhost/arch:1.0
+10880  podman run --name arch --rm  localhost/arch:1.1
+10881  podman kill arch
+10882  podman run --name arch --rm -d  localhost/arch:1.1
+10883  podman exec -it arch /bin/bash
+10884  podman kill arch
+10885  podman images
+10886  y
+10887  lsl
+10888  podman build -t rocky:1.0 .
+10889  podman build -t rocky:1.0 . 
+10890  podman images
+10891  dive localhost/rocky:1.0 
+10892  podman run --name rocky --rm localhost/rocky:1.0
+10893  podman run --name rocky --rm localhost/rocky:1.0 ls
+10894  podman run --name rocky --rm localhost/rocky:1.0 ls -al /sbin/
+10895  podman run --name rocky --rm localhost/rocky:1.0 ls -al /sbin/ | grep systemd
+10896  podman run --name rocky --rm localhost/rocky:1.0 /sbin/lib/systemd/systemd
+10897  podman run --name rocky --rm localhost/rocky:1.0 ls -al /sbin/ | grep systemd
+10898  podman run --name rocky --rm localhost/rocky:1.0 /sbin/init
+10899  podman exec -it rocky /bin/bash
+10900  podman kill rocky
+10901  lsl
+10902  podman build -t rocky:1.1 . 
+10903  podman images
+10904  podman rmi localhost/rocky:1.0
+10905  podman images
+10906  podman run --name rocky localhost/rocky:1.1
+10907  podman exec -it rocky /bin/bash
+10908  podman kill rocky\
+10909  podman kill rocky
+10910  sl
+10911  lsl
+10912  y
+10913  lsl
+10914  y
+10915  ln -s ../../shared/config/sshd_config ./sshd_config
+10916  lsl
+10917  y
+10918  ln -s ../../shared/config/sshd_config ./sshd_config
+10919  lsl
+10920  y
+10921  ln -s ../../shared/config/sshd_config ./sshd_config
+10922  y
+10923  lsl
+10924  y
+10925  ln -s ../../shared/config/sshd_config ./sshd_config
+10926  lsl
+10927  ls
+10928  y
+10929  lsl
+10930  podman build  -t ubi:1.0 .
+10931  y
+10932  lsl
+10933  ln ../../shared/config/sshd_config ./sshd_config
+10934  ls
+10935  lsl
+10936  podman build  -t ubi:1.0 .
+10937  y
+10938  ln ../../shared/config/sshd_config ./sshd_config
+10939  lsl
+10940  y
+10941  ln ../../shared/config/sshd_config ./sshd_config
+10942  lsl
+10943  y
+10944  ln ../../shared/config/sshd_config ./sshd_config
+10945  lsl
+10946  y
+10947  podman images
+10948  dive localhost/ubi:1.0
+10949  podman run --name ubi --rm  localhost/ubi:1.0
+10950  podman exec -it  ubi
+10951  podman exec -it  ubi sh 
+10952  podman kill ubi
+10953  podman ps -a
+10954  tt ka
+10955  clear
+10956  exit
+10957  tt
+10958  clear
+10959  exit
+10960  poweroff
+10961  tt
+10962  lsl
+10963  cdN
+10964  lsl
+10965  sudo nix flake update 
+10966  lsl
+10967  y
+10968  cd
+10969  y
+10970  exit
+10971  nixConfig
+10972  sudo nixos-rebuild switch --flake /etc/nixos#PredatorNix
+10973  snrsf
+10974  tt
+10975  cdN
+10976  nixConfig
+10977  snrsf
+10978  php
+10979  php -v
+10980  snrsf
+10981  clear
+10982  exit
+10983  poweroff
+10984  y
+10985  poweroff
+10986  tt
+10987  cdN
+10988  sudo nix flake update
+10989  ls
+10990  y
+10991  clear
+10992  exit
+10993  nixConfig
+10994  exit
+10995  poweroff
+10996  tt
+10997  mChose
+10998  nixConfig
+10999  snrsf
+11000  mChose
+11001  y
+11002  clear
+11003  exit
+11004  echo performance | setProfile
+11005  lsl
+11006  cd 
+11007  clear
+11008  exit
+11009  exit
+11010  exit
+11011  tt
+11012  echo performance | setProfile
+11013  lsl
+11014  y
+11015  lsl
+11016  sudo nvim
+11017  lsl
+11018  tt
+11019  lsl
+11020  y
+11021  clear
+11022  exit
+11023  exit
+11024  lsl
+11025  tt
+11026  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720
+11027  exit
+11028  exit
+11029  scrcpy --list-cameras
+11030  scrcpy --list-camera-sizes
+11031  poweroff
+11032  reboot
+11033  tt
+11034  y
+11035  tt
+11036  lsl
+11037  y
+11038  lsl
+11039  nvim
+11040  clear
+11041  ls
+11042  cd
+11043  y
+11044  nvim
+11045  nixConfig
+11046  nvim
+11047  snrsf
+11048  y
+11049  rustup toolchain install stable 
+11050  rustup default stable
+11051  rustup component add rust-src rustfmt clippy rust-analyzer 
+11052  rustup toolchain install nightly 
+11053  y
+11054  lsl
+11055  ;y
+11056  y
+11057  lsl
+11058  clear
+11059  nvim
+11060  clear
+11061  nvimConfig
+11062  clear
+11063  tt
+11064  lsl
+11065  y
+11066  echo performance | setProfile
+11067  lsl
+11068  nvim
+11069  y
+11070  lsl
+11071  nvim
+11072  lsl
+11073  cargo run 
+11074  cargo run ~
+11075  exit
+11076  poweroff
+11077  tt
+11078  nixConfig
+11079  snrsf
+11080  btop
+11081  snrsf
+11082  btop
+11083  clear
+11084  lsl
+11085  tt
+11086  clear
+11087  exit
+11088  y
+11089  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11090  scrcpy --list-camera-sizes
+11091  scrcpy --audio-source
+11092  scrcpy --help | grep --audio
+11093  scrcpy --help
+11094  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11095  echo performance | setProfile
+11096  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11097  lsd
+11098  y
+11099  faexit
+11100  exti
+11101  exit
+11102  scrcpy --video-source=camera --camera-id=1 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11103  cd
+11104  lsl
+11105  ls
+11106  cd .ssh
+11107  ls
+11108  scrcpy --video-source=camera --camera-id=1 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11109  lsl
+11110  y
+11111  podman build -t arch:1.0.0 .
+11112  podman images
+11113  podman run  --name arch localhost/arch:1.0.0 
+11114  podman ps -a 
+11115  podman rm arch
+11116  podman run  --name arch localhost/arch:1.0.0 
+11117  podman rm arch
+11118  podman run --name --rm arch localhost/arch:1.0.0 ls 
+11119  podman run --name --rm arch localhost/arch:1.0.0 
+11120  podman run --name arch --rm  localhost/arch:1.0.0 
+11121  podman run --name arch --rm  localhost/arch:1.0.0 ls
+11122  podman run --name arch --rm  localhost/arch:1.0.0 ls usr 
+11123  podman run --name arch --rm  localhost/arch:1.0.0 ls usr/lib
+11124  podman run --name arch --rm  localhost/arch:1.0.0 ls usr/lib | grep systemd
+11125  podman run --name arch --rm  localhost/arch:1.0.0 ls usr/lib/systemd | grep systemd
+11126  podman run --name arch --rm  localhost/arch:1.0.0 ls -al  usr/lib/systemd/systemd 
+11127  podman run --name arch --rm  localhost/arch:1.0.0
+11128  podman build -t arch:1.1.0 .
+11129  podman run --name arch --rm  localhost/arch:1.1.0
+11130  lsl
+11131  podman ps 
+11132  podman exec -it arch /bin/bash
+11133  podman ps -a
+11134  podman kill arch
+11135  podman run --name arch --rm  localhost/arch:1.1.0
+11136  podman exec -it arch /bin/bash
+11137  podman ps 
+11138  podman kill arch
+11139  podman images
+11140  dive localhost/arch:1.1.0 
+11141  lsl
+11142  y
+11143  lsl
+11144  podman build -t rocky:1.0.0 .
+11145  OA
+11146  podman build -t rocky:1.0.0 .
+11147  podman images
+11148  dive localhost/rocky:1.0.0 
+11149  podman run --name rocky --rm localhost/rocky:1.0.0 
+11150  podman run --name rocky --rm localhost/rocky:1.0.0 ls
+11151  podman run --name rocky --rm localhost/rocky:1.0.0 ls bin
+11152  podman run --name rocky --rm localhost/rocky:1.0.0 ls bin | grep init
+11153  podman run --name rocky --rm localhost/rocky:1.0.0 ls sbin | grep init
+11154  podman run --name rocky --rm localhost/rocky:1.0.0 sbin/init
+11155  podman run --name rocky  localhost/rocky:1.0.0 sbin/init
+11156  podman ps 
+11157  podman ps -a
+11158  podman rm rocky
+11159  podman run --name rocky  localhost/rocky:1.0.0 ls usr/bin/systemd/systemd 
+11160  podman run --name rocky  localhost/rocky:1.0.0 ls usr/bin/systemd/
+11161  podman rm rocky
+11162  podman run --name rocky --rm localhost/rocky:1.0.0 ls usr/bin/systemd/
+11163  podman run --name rocky --rm localhost/rocky:1.0.0 ls usr/bin/systemd-run
+11164  podman run --name rocky --rm localhost/rocky:1.0.0 ls -al usr/bin/systemd-run
+11165  podman run --name rocky --rm localhost/rocky:1.0.0 ls -al usr/sbin/systemd-run
+11166  podman run --name rocky --rm localhost/rocky:1.0.0 ls -al usr/sbin
+11167  podman run --name rocky --rm localhost/rocky:1.0.0 /sbin/init
+11168  podman ps 
+11169  podman build -t arch:1.0.0 . 
+11170  podman run --name arch --rm  localhost/arch:1.0.0 
+11171  podman ps 
+11172  podman exec -it arch /bin/bash
+11173  podman kill arch
+11174  podman ps -a
+11175  podman build -t arch:1.1.0 .
+11176  podman run --name archfinal --rm localhost/arch:1.1.0
+11177  podman ps 
+11178  podman exec -it archfinal /bin/bash
+11179  podman kill arch
+11180  podman ps -a
+11181  podman kill archfinal
+11182  poweroff
+11183  y
+11184  ls
+11185  7z a 2_3-4ut-2025.zip ./2_3-4ut-2025 
+11186  ls
+11187  lsblk
+11188  sudo mount /dev/sda1 /home/mukuldk/1_file/8_MOUNTINGS/HDD_512
+11189  ls
+11190  y
+11191  ls
+11192  cp 2_3-4ut-2025 ../../../../8_MOUNTINGS/HDD_512/
+11193  cp -r 2_3-4ut-2025 ../../../../8_MOUNTINGS/HDD_512/
+11194  sudo yazi
+11195  sudo umount /dev/sda1
+11196  exit
+11197  poweroff
+11198  lsblk
+11199  sudo mount /dev/sda1 /home/mukuldk/1_file/8_MOUNTINGS/HDD_512
+11200  y
+11201  lsl
+11202  y
+11203  sudo yazi
+11204  lsl
+11205  y
+11206  lsl
+11207  sudo yazi
+11208  lsl
+11209  sudo umount /dev/sda1
+11210  y
+11211  sudo mount /dev/sda1 /home/mukuldk/1_file/8_MOUNTINGS/HDD_512
+11212  lsl
+11213  y
+11214  sudo yazi
+11215  sudo umount /dev/sda1
+11216  poweroff
+11217  tt
+11218  cdN
+11219  sudo nix flake update
+11220  y
+11221  lsl
+11222  cargo run 
+11223  w
+11224  cargo run 
+11225  y
+11226  nixConfig
+11227  snrsf
+11228  nixVer --list-generations
+11229  fastfetch
+11230  kdash
+11231  nixVer --list-generations
+11232  fastfetch
+11233  sudo nix-collect-garbage -d
+11234  lsl
+11235  nixCopy
+11236  y
+11237  nixConfig
+11238  snrsf
+11239  fastfetch
+11240  cargo run
+11241  snrsf
+11242  fastfetch
+11243  nixVer --list-generations~
+11244  nixVer --list-generations
+11245  clear
+11246  nixOptimise
+11247  poweroff
+11248  y
+11249  yazi
+11250  nvim
+11251  cdN
+11252  nixConfig
+11253  y
+11254  tt
+11255  cd .config
+11256  ls
+11257  y
+11258  lsl
+11259  cd
+11260  cd .config
+11261  ls
+11262  cd yazi
+11263  ls
+11264  lsl
+11265  y
+11266  nvim
+11267  y
+11268  yazi
+11269  sudo su
+11270  nvim
+11271  y
+11272  ya pkg upgrade
+11273  clear
+11274  y
+11275  nvim
+11276  y
+11277  nvim
+11278  ya pkg list 
+11279  ya pkg delete wekauwau/yataline-tokyo-night 
+11280  ya pkg delete wekauwau/yatline-tokyo-night
+11281  y
+11282  cleawr
+11283  exit
+11284  yazi
+11285  y
+11286  tt
+11287  yazi
+11288  history
+11289  ls ~/.config/yazi/plugins\n
+11290  grep -R "yatline" ~/.config/yazi/init.lua\n
+11291  grep -R "yatline" ~/.config/yazi/yazi.toml\n
+11292  nvim
+11293  cd
+11294  cd .config/yazi
+11295  nvim
+11296  y
+11297  nvim
+11298  ya pkg install  wekauwau/yatline-tokyo-night
+11299  lsl
+11300  cd ..
+11301  lsl
+11302  cd yazi
+11303  ls
+11304  cp init.lus init.lua.bkp
+11305  cp init.lua init.lua.bkp
+11306  ls
+11307  nvim
+11308  y
+11309  nvim
+11310  y
+11311  ls
+11312  lsl
+11313  y
+11314  exit
+11315  yazi --clean
+11316  y --clean
+11317  yazi --version
+11318  which chafa
+11319  which viu
+11320  which imagemagic
+11321  which chafa\nwhich viu\nwhich imagemagick\nwhich ueberzugpp\n
+11322  yazi --version
+11323  yazi --clean
+11324  y
+11325  lsl
+11326  cd ..
+11327  lsl
+11328  mv yazi yazzi
+11329  lsl
+11330  y
+11331  ya pkg delete imsi32/yatline\n
+11332  lsl
+11333  y
+11334  ya pkg delete imsi32/yatline\n
+11335  y
+11336  ya pkg delete imsi32/yatline\n
+11337  ya pkg delete Rolv-Apneseth/starship\n
+11338  ya pkg delete yazi-rs/plugins:jump-to-char\n
+11339  ya pkg delete yazi-rs/plugins:diff\n
+11340  ya pkg delete pirafrank/what-size\n
+11341  ya pkg delete boydaihungst/simple-tag\n
+11342  ya pkg delete BennyOe/tokyo-night\nya pkg delete gosxrgxx/flexoki-dark\nya pkg delete sanjinso/monokai-vibrant\n
+11343  y
+11344  nvim
+11345  y
+11346  nvim
+11347  y
+11348  nvim
+11349  y
+11350  clear
+11351  y
+11352  lsl
+11353  nvim
+11354  y
+11355  lsl
+11356  y
+11357  lsl
+11358  y
+11359  yazi --generate-config\n
+11360  yazi -- --generate-config\n
+11361  ya --generate-config
+11362  ya install bunny\n
+11363  ya 
+11364  ya pkg install bunny
+11365  ya pkg
+11366  ya pkg install 
+11367  ya pkg list 
+11368  ya pkg add bunny
+11369  ya pkg install bunny
+11370  ya pkg install --help
+11371  ya pkg list
+11372  ya pack -a stelcodes/bunny
+11373  git clone https://github.com/stelcodes/bunny.yazi ~/.config/yazi/plugins/bunny.yazi
+11374  ya pkg list
+11375  yazi
+11376  y
+11377  ya pkg add boydaihungst/gvfs
+11378  y
+11379  ya pkg add yazi-rs/plugins:jump-to-char
+11380  y
+11381  ya pkg add uhs-robert/sshfs
+11382  y
+11383  ya pkg add yazi-rs/plugins:git
+11384  y
+11385  clear
+11386  nixConfig
+11387  snrsf
+11388  ya pkg add Shallow-Seek/djvu-view
+11389  y
+11390  nix-shell -p sxiv
+11391  nix-shell -p feh
+11392  nix-shell -p sxiv
+11393  snrsf
+11394  y
+11395  exit
+11396  y
+11397  snrsf
+11398  y
+11399  xdg-open
+11400  xdg-open 1st_english.docx
+11401  yazi
+11402  yazi --version
+11403  yy
+11404  y
+11405  clear
+11406  exit
+11407  y
+11408  resource
+11409  y
+11410  lsl
+11411  y
+11412  lsl
+11413  y
+11414  mkdir -p ~/.local/share/yazi/flavors
+11415  mkdir -p ~/.local/share/yazi/flavors/flexoki-dark
+11416  curl -o ~/.local/share/yazi/flavors/flexoki-dark/flavor.toml https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/flavor.toml\ncurl -o ~/.local/share/yazi/flavors/flexoki-dark/preview.png https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/preview.png  # Optional
+11417  y
+11418  lsl
+11419  y
+11420  mkdir -p ~/.config/yazi/flavors/flexoki-dark.yazi\n
+11421  curl -o ~/.config/yazi/flavors/flexoki-dark.yazi/flavor.toml \\n  https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/flavor.toml\n\ncurl -o ~/.config/yazi/flavors/flexoki-dark.yazi/preview.png \\n  https://raw.githubusercontent.com/gosxrgxx/flexoki-dark.yazi/main/preview.png\n
+11422  rm -rf ~/.local/share/yazi/flavors/flexoki-dark\n
+11423  y
+11424  exit
+11425  mkdir -p ~/.config/yazi/flavors/tokyo-night.yazi\n
+11426  curl -o ~/.config/yazi/flavors/tokyo-night.yazi/flavor.toml \\n  https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/flavor.toml\n\ncurl -o ~/.config/yazi/flavors/tokyo-night.yazi/preview.png \\n  https://raw.githubusercontent.com/BennyOe/tokyo-night.yazi/main/preview.png\n
+11427  y
+11428  snrsf
+11429  exit
+11430  lsl
+11431  clear
+11432  snrsf
+11433  exit
+11434  lsl
+11435  nvim
+11436  y
+11437  lsl
+11438  clear
+11439  tt
+11440  y
+11441  nvim
+11442  exit
+11443  exit
+11444  exit
+11445  tt
+11446  nixConfig
+11447  lsl
+11448  clear
+11449  lsl
+11450  clear
+11451  exit
+11452  lsl
+11453  clear
+11454  btop
+11455  exit
+11456  snrsf
+11457  clear
+11458  exit
+11459  lsl
+11460  clear
+11461  btop
+11462  lsl
+11463  clear
+11464  tt
+11465  exit
+11466  y
+11467  nixConfig
+11468  podman-tui
+11469  kdash
+11470  y
+11471  podman-tui
+11472  dive
+11473  dive localhost/arch:1.1.0
+11474  btop
+11475  lsl
+11476  cd
+11477  lsl
+11478  lsli
+11479  lsl
+11480  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11481  podman ps
+11482  podman images
+11483  podman rmi localhost/rocky:1.0.0
+11484  podman rmi docker.io/library/rockylinux:9.3
+11485  podman images
+11486  podman run --name archfinal --rm localhost/arch:1.1.0
+11487  podman exec -it archfinal /bin/bash
+11488  exit
+11489  :w
+11490  podman kill archfinal
+11491  lsl
+11492  y
+11493  lsl
+11494  cat Dockerfile
+11495  podman build -t rocky:1.0.0 .
+11496  podman run --name rocky --rm localhost/rocky:1.0.0 
+11497  podman exec -it rocky /bin/bash
+11498  podman kill rocky
+11499  podman run --name rocky --rm localhost/rocky:1.0.0 /usr/sbin/init
+11500  podman exec -it rocky /bin/bash
+11501  podman kill rocky
+11502  podman ps -a
+11503  y
+11504  lsl
+11505  y
+11506  cat D~
+11507  cat Dockerfile
+11508  podman build -t ubi:1.0.0 .
+11509  podman run --name ubi --rm localhost/ubi:1.0.0
+11510  podman ps -a
+11511  podman exec -it ubi
+11512  podman exec -it ubi /bin/bash
+11513  podman kill
+11514  podman kill ubi
+11515  podman run --name ubi --rm localhost/ubi:1.0.0 /usr/sbin/init
+11516  podman exec -it ubi /bin/bash
+11517  podman kill ubi
+11518  podman ps 0a
+11519  podman ps -a
+11520  podman build -t ubuntu:1.0.0 .
+11521  podman rmi ubuntu:1.0.0
+11522  y
+11523  podman build -t ubuntu:1.0.0 . 
+11524  podman images
+11525  podman run --name ubuntu --rm localhost/ubuntu:1.0.0
+11526  podman ps -a
+11527  podman exec -it ubuntu /bin/bash
+11528  podman kill ubuntu
+11529  podman run --name ubuntu --rm localhost/ubuntu:1.0.0 /usr/lib/init
+11530  podman run --name ubuntu --rm localhost/ubuntu:1.0.0 /usr/lib/systemd/systemd
+11531  podman exec -it ubuntu /bin/bash
+11532  podman kill ubuntu
+11533  podman ps -a
+11534  podman images
+11535  y
+11536  cd..
+11537  lsl
+11538  podman build -t arch:1.1.1 ./1_arch 
+11539  podman images
+11540  ls
+11541  pwd
+11542  podman build -t arch:1.1.1 . 
+11543  lsl
+11544  podman build -t rocky:1.1.0 ./2_rocky
+11545  lsl
+11546  podman build -t ubi:1.1.0 ./3_ubi
+11547  lsl
+11548  podman build -t ubuntu:1.1.0 ./4_ubuntu
+11549  podman images
+11550  podman rmi ubuntu:1.0.0
+11551  podman rmi arch:1.1.0
+11552  podman rmi arch:1.0.0
+11553  podman rmi rocky:1.0.0
+11554  podman rmi ubi:1.0.0 
+11555  podman images
+11556  podman run --name t1 --rm localhost/ubuntu
+11557  vmstat
+11558  iostat
+11559  ss -antp
+11560  journalctl -u nginx --since "10 min ago"\n
+11561  journalctl -u zellij --since "10 min ago"\n
+11562  journalctl -u zen-twilight --since "10 min ago"\n
+11563  journalctl -u btop  --since "10 min ago"
+11564  journalctl   --since "10 min ago"
+11565  podman ps 
+11566  podman ps  =a
+11567  podman ps  -a
+11568  podman images
+11569  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11570  scrcpy --list-camera-sizes
+11571  ls
+11572  scrcpy --list-camera-sizes > ./realmiX3_camera.md
+11573  ls
+11574  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11575  echo performance | setProfile
+11576  podman images
+11577  podman run --name archfinal --rm localhost/arch:1.1.0
+11578  podman run --name archfinal --rm localhost/arch:1.1.1 
+11579  podman ps -a
+11580  podman exec -it archfinal /bin/bash
+11581  podman kill archfinal
+11582  podman run --name rocky --rm localhost/rocky:1.1.0
+11583  podman exec -it rocky /bin/bash
+11584  podman kill rocky
+11585  podman run --name ubi --rm localhost/ubi:1.1.0
+11586  podman exec -it ubi
+11587  podman exec -it ubi /bin/bash
+11588  podman kill ubi
+11589  podman run --name ubuntu --rm localhost/ubuntu:1.1.0
+11590  podman exec -it ubuntu /bin/bash
+11591  clear
+11592  podman kill ubuntu
+11593  ls
+11594  y
+11595  lsl
+11596  chmod +x ./crete_disk.sh
+11597  ./crete_disk.sh
+11598  lsl
+11599  ./crete_disk.sh
+11600  podman ps -a
+11601  exit
+11602  clear
+11603  y
+11604  tt
+11605  exit
+11606  tt
+11607  poweroff
+11608  y
+11609  tt
+11610  nixConfig
+11611  snrsf
+11612  y
+11613  clear
+11614  y
+11615  clear
+11616  exit
+11617  echo performance | setProfile
+11618  poweroff
+11619  lsl
+11620  slsl
+11621  lsl
+11622  clear
+11623  which firewal
+11624  which firewall
+11625  which ufw
+11626  tt
+11627  systemctl status firewalld
+11628  cleawr
+11629  clear
+11630  exit
+11631  nixConfig
+11632  lsl
+11633  cdN
+11634  lsl
+11635  sudo nix flake update
+11636  lsd
+11637  snrsf 
+11638  firewalld
+11639  sudo systemctl status firewalld 
+11640  sudo systemctl status firewall.service
+11641  systemctl status firewall.service
+11642  sudo systemctl start firewall.service
+11643  systemctl status firewall.service
+11644  firewall-cmd --list-all
+11645  cd
+11646  sudo firewall-cmd --list-all
+11647  sudo nft list ruleset\n
+11648  sudo iptables -L -n -v\n
+11649  lsl
+11650  y
+11651  lsl
+11652  y
+11653  sudo iptables -L -n -v > Understanding_iptables.md
+11654  sudo iptables -L -n -v 
+11655  ip addr show lo
+11656  sudo iptables -L -n -v 
+11657  clear
+11658  exit
+11659  exit
+11660  tt
+11661  nixConfig
+11662  exit
+11663  snrsf
+11664  lsl
+11665  exit
+11666  lsl
+11667  clear
+11668  exit
+11669  hyprctl clients\n
+11670  snrsf
+11671  nixCopy
+11672  y
+11673  fzf 
+11674  cd
+11675  fzf
+11676  y
+11677  snrsf
+11678  nixConfig
+11679  snrsf
+11680  echo performance | setProfile
+11681  snrsf
+11682  lsl
+11683  nixCopy
+11684  lsl
+11685  y
+11686  snrsf
+11687  nixConfig
+11688  snrsf
+11689  clear
+11690  tt
+11691  lsl
+11692  nixConfig
+11693  snrsf
+11694  tt
+11695  lsl
+11696  y
+11697  nixConfig
+11698  snrsf
+11699  which zjstatus
+11700  snrsf
+11701  which zjstatus
+11702  tt
+11703  exit
+11704  exit
+11705  exit
+11706  exit
+11707  poweroff
+11708  tt
+11709  snrsf
+11710  tt
+11711  exit
+11712  tt ka
+11713  tt 
+11714  y
+11715  lsl
+11716  y
+11717  lsl
+11718  git clone git@github.com:VihaanaDevSchool/2_file-scanner.git
+11719  lsl
+11720  y
+11721  clear
+11722  rm --help
+11723  poweroff
+11724  y
+11725  lsl
+11726  y
+11727  tt
+11728  y
+11729  echo performance | setProfile
+11730  clear
+11731  exit
+11732  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11733  nixConfig
+11734  snrsf
+11735  pti
+11736  Mkk
+11737  lsl
+11738  y
+11739  echo performance | setProfile
+11740  clear
+11741  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 
+11742  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 \\n
+11743  dive localhost/arch:1.1.0
+11744  podman images
+11745  dive localhost/ubuntu:1.1.0
+11746  lsl
+11747  y
+11748  lsl
+11749  chmod +x ./i_colored_op.sh
+11750  lsl
+11751  ./i_colored_op.sh
+11752  lsl
+11753  y
+11754  lsl
+11755  chmod +x new.sh
+11756  ./new.sh
+11757  y
+11758  du 
+11759  du -h ./
+11760  cd 3_ubi
+11761  lsl
+11762  dua -h 
+11763  du -h 
+11764  lsl
+11765  y
+11766  lsl
+11767  ./new.sh
+11768  y
+11769  lsl
+11770  cd -
+11771  ls
+11772  ./new.sh
+11773  cd -
+11774  ls
+11775  lsl
+11776  cd -
+11777  lsl
+11778  echo ./new.sh
+11779  cat ./new.sh
+11780  mkdir --help
+11781  truncate --help
+11782  echo --help
+11783  echo "--help"
+11784  echo -h
+11785  echo {-h}
+11786  help echo 
+11787  man echo
+11788  read --help
+11789  read -h
+11790  man read
+11791  [[ -d ./../../disks ]] && echo true
+11792  [[ -d ./../../disks/1_arch ]] && echo true
+11793  [[ -d ./../../disks/1_arc ]] && echo true
+11794  [[ -d ./../../disks/1_arc ]] && echo true || echo false
+11795  [[ -d ./../../disks/1_arc ]] || echo false
+11796  lsl
+11797  ./create_dick.sh
+11798  clear
+11799  y
+11800  scrcpy --video-source=camera --camera-id=0 --camera-fps=60 --render-driver=opengl --camera-size=1280x720 \\n
+11801  podman images
+11802  lsl
+11803  y
+11804  lsl
+11805  chmod +x create_disk.sh
+11806  ./create_disk.sh
+11807  cat ./create_disk.sh
+11808  ./create_disk.sh
+11809  tt
+11810  y
+11811  find / -type b
+11812  sudo find / -type b
+11813  btop
+11814  lsl /dev/nvme0n1
+11815  lsl /dev/loop7
+11816  lsl /dev/
+11817  clear
+11818  tt
+11819  lsl /dev/
+11820  exit
+11821  exit
+11822  sudo find / -type p 
+11823  ls /home/mukuldk/.steam/steam.pipe
+11824  lsl /home/mukuldk/.steam/steam.pipe
+11825  sudo find / -type p 
+11826  sudo ls -altir /run/user/1000/systemd/inaccessible/fifo
+11827  eza
+11828  echo $lsl
+11829  cat lsl
+11830  alias lsl
+11831  sudo eza
+11832  sudo eza  -lagh /run/user/1000/systemd/inaccessible/fifo
+11833  sudo su 
+11834  nixConfig
+11835  alias lsl
+11836  lsl
+11837  cat .zshrc
+11838  systp
+11839  sudo systemctl status podman
+11840  podman
+11841  clear
+11842  snrsf
+11843  sudo su
+11844  snrsf
+11845  ll
+11846  lsl
+11847  ll
+11848  lsl
+11849  exit
+11850  systemctl --user status pipewire\n
+11851  snrsf
+11852  uname -a
+11853  cat /sys/module/zswap/parameters/enabled\n
+11854  cat /sys/module/zswap/parameters/compressor\n
+11855  cat /sys/module/zswap/parameters/max_pool_percent\n
+11856  sudo cat /sys/kernel/debug/zswap/*\n
+11857  zcat /proc/config.gz | grep PREEMPT\n
+11858  cat /sys/kernel/debug/sched/preempt\n
+11859  sudo cat /sys/kernel/debug/sched/preempt\n
+11860  uname -a\n
+11861  free -h
+11862  swapon --show\n
+11863  sudo cat /sys/kernel/debug/sched/preempt\n
+11864  zcat /proc/config.gz | grep PREEMPT\n
+11865  cat /proc/config.gz | grep PREEMPT\n
+11866  zcat /proc/config.gz | grep PREEMPT\n
+11867  cat /proc/cmdline\n
+11868  snrsf
+11869  lsl
+11870  clear
+11871  zcat /proc/config.gz | grep PREEMPT\n
+11872  cat /proc/cmdline\n
+11873  uname -a
+11874  clear
+11875  reboot
+11876  tt
+11877  cat /proc/cmdline\n
+11878  uname -a
+11879  zcat /proc/config.gz | grep PREEMPT\n
+11880  tt
+11881  btop
+11882  nixConfig
+11883  clear
+11884  exit
+11885  tt
+11886  nixVer --list-generations
+11887  nixVer --delete-generations {584..640}
+11888  nixVer --list-generations
+11889  clear
+11890  nixOptimise
+11891  tt
+11892  yaziConfig
+11893  cleawr
+11894  exit
+11895  exit
+11896  fastfetch
+11897  lsl
+11898  nixVer --list-generations
+11899  tt
+11900  sudo nix-collect-garbage 
+11901  nixOptimise
+11902  fastfetch
+11903  nixVer --list-generations
+11904  cdN
+11905  sudo nix flake update
+11906  nixConfig
+11907  snrsf
+11908  clear
+11909  exit
+11910  poweroff
+11911  tt
+11912  bash
+11913  tt
+11914  cat /proc/cmdline | grep preempt\n
+11915  sudo fine / --type s 
+11916  sudo find / --type s
+11917  sudo find / -type s 
+11918  sudo lsl /run/user/1000/speech-dispatcher/speechd.sock
+11919  sudo su
+11920  ls -l 
+11921  lsl
+11922  cat yazi_shortcust.md
+11923  lsl
+11924  cat .myclirc 
+11925  cat .myclirc_1
+11926  mycli
+11927  clear
+11928  nixOptimise
+11929  tt
+11930  sudo nix-collect-garbage 
+11931  sudo file / -type p 
+11932  sudo find / -type p 
+11933  lsl /run/systemd/inaccessible/fifo
+11934  nixConfig
+11935  snrsf
+11936  lsblk
+11937  lsblk -f
+11938  nixCopy
+11939  lsl
+11940  cd ./nixos_copy
+11941  lsl
+11942  nvim
+11943  lsblk -f
+11944  snrsf
+11945  y
+11946  lsl
+11947  lsli
+11948  cd ..
+11949  ls
+11950  y
+11951  clear
+11952  yaziConfig
+11953  sudo su
+11954  yaziConfig
+11955  y
+11956  yaziConfig
+11957  exit
+11958  tt
+11959  yaziConfig
+11960  nixConfig
+11961  snrsf
+11962  cleawr
+11963  clera
+11964  y
+11965  mkdir --help
+11966  mkdir -m --help
+11967  mkdir --help -m
+11968  mkdir MODE --help
+11969  man mkdir
+11970  mktemp --help
+11971  tt
+11972  y
+11973  nixConfig
+11974  lsl
+11975  y
+11976  snrsf
+11977  nixCopy
+11978  snrsf
+11979  nixCopy
+11980  lsl
+11981  y
+11982  sudo yazi
+11983  nixCopy
+11984  clear
+11985  sudo systemctl status upower
+11986  upower
+11987  sudo systemctl status upower
+11988  upower
+11989  exit
+11990  upower -e
+11991  notify-send "Battery test" "If you see this, swaync works"\n
+11992  loginctl show-session $XDG_SESSION_ID | grep -E 'Type|State'\n
+11993  loginctl show-user $USER | grep Linger\n
+11994  ls /sys/class/power_supply/\n
+11995  ls /sys/class/power_supply/BAT1/\n
+11996  lsl /sys/class/power_supply/BAT1/\n
+11997  fastfetch
+11998  exit
+11999  clear
+12000  exit
+12001  poweroff
+12002  lsl
+12003  y
+12004  clear
+12005  tt
+12006  lsl
+12007  y
+12008  umask 
+12009  umask 0002
+12010  umask
+12011  umask --help
+12012  umask -h
+12013  man umask
+12014  clear
+12015  btop
+12016  poweroff
+12017  tt
+12018  clear
+12019  btop
+12020  lsl
+12021  cdN
+12022  nixConfig
+12023  snrsf
+12024  nixCopy
+12025  y
+12026  sudo yazi
+12027  snrsf
+12028  y
+12029  OA
+12030  snrsf
+12031  nixCopy
+12032  u
+12033  y
+12034  snrsf
+12035  nmcli -t -f WIFI g | grep enabled >/dev/null && echo "󰤨 WiFi" || echo "󰤭 Offline"
+12036  \nplayerctl metadata --format '󰝚 {{ artist }} – {{ title }}'\n
+12037  adb mount --help
+12038  adb --help
+12039  adb devices
+12040  adb shell
+12041  adb pull /sdcard/Pictures/*.zip ../../1_file/8_MOUNTINGS/SD_512/MK-X/
+12042  adb pull /sdcard/Pictures/8Jan26-photosOnly.zip ../../1_file/8_MOUNTINGS/SD_512/MK-X/
+12043  adb pull /sdcard/Pictures/8th-jan-2026.zip ../../1_file/8_MOUNTINGS/SD_512/MK-X/
+12044  adb shell
+12045  adb pull /sdcard/Pictures/8th-jan-2026/{22..24}.jpg ../../1_file/8_MOUNTINGS/SD_512/MK-X/
+12046  y
+12047  clear
+12048  y
+12049  lsl
+12050  cp radu-nako-lavkar-yeto-motu.mp4 ~/Videos/
+12051  ls
+12052  cd ~/Videos
+12053  ls
+12054  y
+12055  snrsf
+12056  y
+12057  lsl
+12058  ./battery.sh
+12059  cat runnins_song.sh
+12060  ./runnins_song.sh
+12061  ./wifi.sh
+12062  cat battery.sh
+12063  cat /sys/class/power_supply/BAT1/capacity 
+12064  cat /sys/class/power_supply/BAT1/capacity | awk '{print $1}'
+12065  cat wifi.sh
+12066  snrsf
+12067  y
+12068  cd
+12069  y
+12070  snrsf
+12071  btop
+12072  snrsf
+12073  fastfetch
+12074  btop
+12075  fastfetch
+12076  snrsf
+12077  fastfetch
+12078  ls
+12079  lsl
+12080  clear
+12081  exit
+12082  fastfetch
+12083  nixConfig
+12084  fastfetch
+12085  nixVer --list-generations
+12086  nixVer --delete-generations {640..668}
+12087  clear
+12088  nixOptimise
+12089  sudo nix-collect-garbage 
+12090  clear
+12091  fastfetch
+12092  clear
+12093  btop
+12094  poweroff
+12095  lsblk
+12096  lsblk -f
+12097  y
+12098  lsblk
+12099  y
+12100  clear
+12101  reboot
+12102  y
+12103  lsblk
+12104  sudo mount /dev/mmcblk0p1 /home/mukuldk/1_file/test
+12105  dmesg(1)
+12106  clear
+12107  exit
+12108  systemctl list-units
+12109  tt
+12110  sudo systemctl list-units
+12111  ss -tulpn
+12112  ss -tulp
+12113  ss -tul
+12114  ss -tu
+12115  ss 
+12116  ps aux --sort=.cpu | head
+12117  ps aux --sort=-cpu
+12118  ps aux --sort=-cpu | head
+12119  ps 
+12120  ps auz
+12121  ps aux
+12122  ps --help
+12123  ps --help aux
+12124  ps --help simple
+12125  ps --help all
+12126  ps ax
+12127  ps aux --sort=-mem | head
+12128  ps aux --sort=-memory
+12129  ps aux --sort=-cpu
+12130  ps aux --sort=-mem
+12131  ps aux --sort=-m
+12132  ps aux --sort=-MEM
+12133  ps --help all
+12134  ps avx
+12135  ps --help all
+12136  ps aux --sort=-mem 
+12137  ps aux --sort=-ram
+12138  ps aux --sort=-mim
+12139  ps aux --sort=-memory
+12140  ps aux --sort=-storage
+12141  ps aux --sort -cpu 
+12142  ps aux --sort -cpu | head 
+12143  ps aux --sort -pid 
+12144  nix-store --verify --check-contents\n
+12145  nixConfig
+12146  cd
+12147  y
+12148  nvim
+12149  lsl
+12150  y
+12151  cdN
+12152  nixConfig
+12153  exit
+12154  nvim
+12155  nixConfig
+12156  tt
+12157  nixConfig
+12158  cd
+12159  lsl
+12160  cd nixos_copy
+12161  lsl
+12162  nvim
+12163  exit
+12164  ps -eo pid,stat,comm | grep ' D '\n
+12165  fastfetch --disable publicip\n
+12166  fastfetch
+12167  exit
+12168  fastfetch --disable publicip\n
+12169  snrsf
+12170  systemctl stop home-mukuldk-1_file-8_MOUNTINGS-SD_512.automount
+12171  systemctl start home-mukuldk-1_file-8_MOUNTINGS-SD_512.automount
+12172  fastfetch
+12173  systemctl start home-mukuldk-1_file-8_MOUNTINGS-SD_512.automount
+12174  clear
+12175  snrsf
+12176  fastfetch
+12177  clear
+12178  exit
+12179  fastfetch
+12180  clear
+12181  exit
+12182  clear
+12183  exit
+12184  clear
+12185  exit
+12186  y
+12187  find ~
+12188  df -h
+12189  lsblk
+12190  mount
+12191  systemctl list-units
+12192  fastfetch --debug\n
+12193  fastfetch --load-config ~/.config/fastfetch/config.jsonc --show-errors\n
+12194  fastfetch
+12195  tt
+12196  nixConfig
+12197  snrsf
+12198  timeout 2 curl -4 ifconfig.me 
+12199  timeout 10  curl -4 ifconfig.me 
+12200  curl -4 google.com
+12201  curl -4 google.co.in
+12202  curl -4 youtube.com
+12203  curl -4 vihaanaitech.com
+12204  cleawr
+12205  clear
+12206  exit
+12207  clear
+12208  exit
+12209  dig +short myip.opendns.com @resolver1.opendns.com
+12210  curl -4 vihaanaitech.com
+12211  curl vihaanaitech.com
+12212  tt
+12213  nixConfig
+12214  snrsf
+12215  clear
+12216  exit
+12217  fastfetch
+12218  dig +short myip.opendns.com @resolver1.opendns.com
+12219  clear
+12220  nixConfig
+12221  resolvectl status\n
+12222  snrsf
+12223  curl -4 vihaanaitech.com
+12224  curl -4 ipconfig.me
+12225  curl -4 https://ifconfig.me
+12226  resolvectl status\n
+12227  time dig google.com
+12228  time 
+12229  time fastfetch
+12230  time curl -4 https://ifconfig.me
+12231  exit
+12232  exit
+12233  fastfetch
+12234  exit
+12235  sudo nix-collect-garbage 
+12236  sudo nixVer --list-versions
+12237  nixVer --list-generations
+12238  nixVer --delete-generations {669..674}
+12239  nixVer --list-generations
+12240  nixOptimise
+12241  fastfetch
+12242  lsblk
+12243  sudo mount /dev/mmcblk0p1 /home/mukuldk/1_file/8_MOUNTINGS/SD_512
+12244  clear
+12245  fastfetch
+12246  y
+12247  clear
+12248  poweroff
+12249  tt
+12250  y
+12251  btop
+12252  date
+12253  date +%R
+12254  date +%x
+12255  file /etc/passwd
+12256  file /bin/passwd
+12257  file /home
+12258  head /etc/passwd
+12259  cat /etc/passwd
+12260  sudo userdel jetha 
+12261  cat /etc/passwd
+12262  wc /etc/passwd
+12263  cat /etc/groups
+12264  cat /etc/group 
+12265  cat /etc/hosts
+12266  host
+12267  hostname
+12268  hostname -I
+12269  hostname -i
+12270  host
+12271  host -a
+12272  host -A
+12273  host -t
+12274  useradd -MNg wheel abcd
+12275  sudo useradd -MNg wheel abcd
+12276  users
+12277  cat /etc/hosts
+12278  cat /etc/group
+12279  cat /etc/passwd
+12280  groups 
+12281  sudo userdel abcd
+12282  sudo useradd -MNg podman abcd 
+12283  echo "abcd:asdfasdf" | passwd
+12284  sudo echo "abcd:asdfasdf" | passwd
+12285  passwd asdf
+12286  passwd abcd
+12287  sudo passwd abcd
+12288  su abcd
+12289  sudo userdel abcd
+12290  cat /etc/passwd
+12291  sudo useradd -Z asdf -g wheel
+12292  sudo useradd -Z asdf -g wheel testselinux
+12293  sudo useradd --selinux-user -g wheel test1
+12294  lsblk
+12295  cd nixos_copy
+12296  lsl
+12297  nvim
+12298  ps -eo pid,stat,comm | grep ' D '\n
+12299  sudo useradd --selinux-user -g wheel test1
+12300  run-help sudo
+12301  history
+12302  sudo useradd --selinux-user -g wheel test1 
+12303  run-help sudo
+12304  sudo useradd --selinux-user -g wheel test1 
+12305  run-help sudo
+12306  file /usr/bin/env clean-binary-files
+12307  ls /usr/bin/
+12308  ls
+12309  ls /usr/
+12310  y
+12311  cd
+12312  clear
+12313  fastfetch
+12314  poweroff
+12315  tt
+12316  lsl
+12317  y
+12318  tta
+12319  echo performance | setProfile
+12320  clear
+12321  y
+12322  rustc --version
+12323  cargo --version
+12324  rustup
+12325  rustup toolchain install nightly 
+12326  rustup --help
+12327  rustup show
+12328  rustup toolchain i
+12329  rustup update
+12330  rustup default nightly
+12331  cleawr
+12332  y
+12333  clear
+12334  poweroff
+12335  tt
+12336  lsl
+12337  y
+12338  lsl
+12339  touch a..z
+12340  lsl
+12341  rm -rfv a..z
+12342  touch {a..z}
+12343  lsl
+12344  umask
+12345  mkdir {1..5}
+12346  lsl
+12347  cp a a2
+12348  lsl
+12349  date >> a 
+12350  cat a
+12351  cp a a3
+12352  cat a3
+12353  lsl
+12354  rm -rfv a2, a3
+12355  lsl
+12356  cp a a3
+12357  rm -rfv a2 a3
+12358  lsl
+12359  mv a a2
+12360  lsl
+12361  cat a2
+12362  mv a2 a
+12363  lsl
+12364  cp a b c 1
+12365  lsl
+12366  ls 1
+12367  cat 1/a
+12368  mv a b c 2
+12369  lsl
+12370  ls 2
+12371  ls 1
+12372  cat 1/a
+12373  cat 2/a
+12374  lsl 2
+12375  lsl 1
+12376  wc a/1
+12377  wc 1/a
+12378  nvim
+12379  lsl
+12380  lsl 1
+12381  lsl 2
+12382  cat 1/a
+12383  nvim
+12384  lsl 1
+12385  lsl
+12386  rm --help
+12387  lsl
+12388  mv d e f 3
+12389  lsl
+12390  lsl 3
+12391  ls -R
+12392  lsl -R
+12393  ll
+12394  lsl -R
+12395  clear
+12396  rmdir
+12397  lsl
+12398  rmdir ./
+12399  rmdir ./*
+12400  lsl
+12401  touch song{1..6}.mp3 
+12402  lsl
+12403  touch snap{1..6}.ipg
+12404  lsl
+12405  touch film{1..6}.avi
+12406  lsl
+12407  mkdir Music Pictures Videos
+12408  lsl
+12409  mv ./film* ./Videos
+12410  lsl
+12411  mv ./snap* ./Pictures
+12412  lsl
+12413  mv ./song* ./Music
+12414  lsl
+12415  lsl -R
+12416  mkdir friends family work
+12417  lsl
+12418  cp -r  ./*/*{1..2}.* ./friends
+12419  lsl
+12420  lsl friends
+12421  cp -r ./*/*{3..4}.* ./family
+12422  lsl family
+12423  cp -r ./*/*{5..6}.* ./work
+12424  lsl
+12425  lsl work
+12426  rm -rfv ./work/*
+12427  lsl
+12428  rmdir work
+12429  lsl
+12430  mkdir work
+12431  cp ./*/*{5..6}.* ./work
+12432  lsl
+12433  lsl work
+12434  sudo su
+12435  clear
+12436  ~+
+12437  y
+12438  echo performance | setProfile
+12439  cat /etc/passwd
+12440  cat /bin/passwd
+12441  cat /usr/bin/env passwd
+12442  which passwd 
+12443  file /run/wrappers/bin/passwd
+12444  sudo file /run/wrappers/bin/passwd
+12445  realpath $(which sudo )
+12446  which passwd
+12447  realpath $(which passwd)
+12448  clear
+12449  whereis awk 
+12450  realpath $(which awk)
+12451  history
+12452  lsl
+12453  y
+12454  clear
+12455  lsl
+12456  nvim
+12457  lsl
+12458  y
+12459  lsl
+12460  ssh -o StrictHostKeyChecking=no examuser-rockey@localhost -p 2202
+12461  ssh -i "vihanUbuntu.pem" ubuntu@ec2-13-200-223-188.ap-south-1.compute.amazonaws.com 
+12462  exit
+12463  clear
+12464  poweroff
+12465  dig ocode.co A 
+12466  dig ocode.co NS
+12467  tt
+12468  clear
+12469  y
+12470  lsl
+12471  mkdir test/
+12472  cd test
+12473  ls
+12474  touch  season{1..2}_epidose{1..6}.avi
+12475  lsl
+12476  cd ..
+12477  lsl
+12478  cd Videos
+12479  lsl
+12480  mkdir vication editing remastering
+12481  lsl
+12482  mv ../test/season* ./
+12483  lsl
+12484  ls ./season[1,2]_episode[1,2].*
+12485  ls
+12486  ls ./season{1..2}*
+12487  ls ./season{1..2}_epidose{1..2}.*
+12488  mv ./season{1..2}_epidose* ./seaons{1..2}_episode*
+12489  nvim
+12490  nixConfig
+12491  echo performance | setProfile
+12492  y
+12493  lsl
+12494  glow ./1_JD.md
+12495  lsl
+12496  cd .. 
+12497  lsl
+12498  cd ..
+12499  lsl
+12500  y
+12501  lsl
+12502  git clone git@github.com:Mukulkalsait/ZA_Jobs.git
+12503  mv ../../A_JOBS ./
+12504  lsl
+12505  cd A_JOBS
+12506  lsl
+12507  cd ..
+12508  lsl
+12509  mv ./A_JOBS/* ./ZA_Jobs 
+12510  lsl
+12511  lsl ./A_JOBS
+12512  lsl ./ZA_Jobs
+12513  y
+12514  lsl
+12515  y
+12516  reboot
+12517  tt
+12518  y
+12519  lsl
+12520  cd 1_oCode
+12521  lsl
+12522  cd interviewProcess
+12523  lsl
+12524  glow ./videoCall1.md
+12525  clear
+12526  exit
+12527  exit
+12528  poweroff
+12529  tt
+12530  y
+12531  clear
+12532  poweroff
+12533  lsl
+12534  clear
+12535  lsl
+12536  clear
+12537  poweroff
+12538  tt
+12539  y
+12540  glow ./1_oCode/interviewProcess/4
+12541  glow ./1_oCode/interviewProcess/4_Project.md
+12542  echo performance | setProfile
+12543  man sudo
+12544  man ls
+12545  btop
+12546  ps 
+12547  ll
+12548  lsl
+12549  y
+12550  cdN
+12551  sudo nix flake update
+12552  cdN
+12553  nixConfig
+12554  cd
+12555  y
+12556  clear
+12557  exit
+12558  exit
+12559  exit
+12560  poweroff
+12561  tt
+12562  nixConfig
+12563  cdN
+12564  sudo nix flake update
+12565  snrsf 
+12566  btop
+12567  fastfetch
+12568  snrsf 
+12569  clear
+12570  exit
+12571  exit
+12572  exit
+12573  poweroff
+12574  dig +short myip.opendns.com
+12575  dig +short myip.opendns.com @resolver1.opendns.com
+12576  tt
+12577  man 1 sudo
+12578  man sudo
+12579  man 9 sudo
+12580  man 3 sudo
+12581  man 5 passwd
+12582  man 9 passwd
+12583  man 1 passwd
+12584  man 3 passwd
+12585  man 5 passwd
+12586  man 7 passwd
+12587  man 8 passwd
+12588  man 9 cubectl
+12589  man 9 kind
+12590  kind
+12591  man kind
+12592  mandb
+12593  man mysql
+12594  mycli
+12595  man rustup
+12596  man ls
+12597  man  1 ls
+12598  man 2 ls 
+12599  man 3 ls
+12600  man 4 ls
+12601  man 5 ls
+12602  man 6 ls
+12603  man 7 ls
+12604  man 8 ls
+12605  man 9 ls
+12606  clear
+12607  man -k passwd
+12608  man -k ls
+12609  man -k 
+12610  man -k sudo
+12611  man -k flake
+12612  man flake
+12613  man -k nixos
+12614  man nixos
+12615  nix --help
+12616  man nix
+12617  man -k nix
+12618  man 1 nix
+12619  man nix
+12620  man nix | cat
+12621  nix --help
+12622  nix edit
+12623  nvim
+12624  y
+12625  lsl
+12626  y
+12627  lsl
+12628  history
+12629  history 100
+12630  history all
